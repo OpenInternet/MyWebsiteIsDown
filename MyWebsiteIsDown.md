@@ -4,7 +4,14 @@ A threat that many independent journalists, news sites, and bloggers face is hav
 
 This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.  Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all.
 
-[[_TOC_]]
+ * [First Steps](#First-Steps:-Diagnosing-other-potential-problems)
+ * [Next Steps](#Next-Steps)
+ * [Responding to a Denial of Service Attack](#Responding-to-a-Denial-of-Service-Attack)
+ * [Before you choose a service](#Before-you-choose)
+ * [Hosted Services](#Hosted-Services)
+ * [Proxy Services](#Proxy-Services)
+ * [Glossary](#Glossary)
+
 
 # First Steps: Diagnosing other potential problems
 
