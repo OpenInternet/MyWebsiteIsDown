@@ -4,7 +4,7 @@ A threat that many independent journalists, news sites, and bloggers face is hav
 
 This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.  Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all.
 
-[[TOC]]
+[[_TOC_]]
 
 # First Steps: Diagnosing other potential problems
 
