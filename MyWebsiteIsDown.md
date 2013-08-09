@@ -216,7 +216,7 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
 Cloudflare is required to comply with US legal requests and National Security Letters.
 
-* **Technical needs: **You will need the ability to change your nameservers.
+* **Technical needs:** You will need the ability to change your nameservers.
 
 * **Get Started Now:**  Create an account here: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
 
