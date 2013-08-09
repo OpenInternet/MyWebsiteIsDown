@@ -4,13 +4,12 @@ A threat that many independent journalists, news sites, and bloggers face is hav
 
 This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.  Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all.
 
- * [First Steps](#First-Steps:-Diagnosing-other-potential-problems)
- * [Next Steps](#Next-Steps)
- * [Responding to a Denial of Service Attack](#Responding-to-a-Denial-of-Service-Attack)
- * [Before you choose a service](#Before-you-choose)
- * [Hosted Services](#Hosted-Services)
- * [Proxy Services](#Proxy-Services)
- * [Glossary](#Glossary)
+ * [First Steps](#first-steps-diagnosing-other-potential-problems)
+ * [Next Steps](#next-steps)
+ * [Responding to a Denial of Service Attack](#responding-to-a-denial-of-service-attack)
+ * [Before you choose a service](#before-you-choose)
+ * [DDoS Mitigation Services](#mitigation-services)
+ * [Glossary](#glossary)
 
 
 # First Steps: Diagnosing other potential problems
@@ -27,7 +26,7 @@ AccessNow provides a much more in-depth guide with many more resources and mitig
 
 3. If your site is loading extremely slowly or not at all, check [http://www.isup.me/](http://www.isup.me/) - your site might be up, but you can’t see it.  This is a **network problem**. Your own Internet connection could be having problems or be blocking your access to your site.  Try visiting other pages on the Internet.  Can you visit other sites with content like your site?  Try using Tor ([https://www.torproject.org/projects/gettor.html](https://www.torproject.org/projects/gettor.html))  or Psiphon ([https://psiphon.ca/products.php](https://psiphon.ca/products.php)) to access your site.  If this helps, you have a **blocking problem**, but you are still online for other parts of the world.
 
-4. ** *Contact your webmaster and the site host!* ** The problem you face may not be reported on their status page yet, or you could have been taken offline for other reasons (a legal/copyright request, for example).  This is a **legal problem**, and the resources provided by the EFF, while focused on US copyright laws, are a good place to learn more: [https://www.eff.org/issues/bloggers/legal/liability/IP](https://www.eff.org/issues/bloggers/legal/liability/IP).
+4. **Contact your webmaster and the site host!** The problem you face may not be reported on their status page yet, or you could have been taken offline for other reasons (a legal/copyright request, for example).  This is a **legal problem**, and the resources provided by the EFF, while focused on US copyright laws, are a good place to learn more: [https://www.eff.org/issues/bloggers/legal/liability/IP](https://www.eff.org/issues/bloggers/legal/liability/IP).
 
 *In addition to the services and suggestions below, it’s always good to make sure you have backups (that you store somewhere other than the same place your website is!) - many hosts and website platforms have this included; but it’s best to also have additional copies.  Also ensure that your website technology is updated to the latest software.*
 
@@ -155,13 +154,13 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 
 * **Cost:** Pricing starts at €100/month for simple sites.  Other tiers for more complex hosting needs or higher resource demands are available.
 
-* **Restrictions: **None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar)
+* **Restrictions:** None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar)
 
-* **About the organization and its business model: **VirtualRoad.org is part of Media Frontiers, a social purpose enterprise registered in Denmark as an ApS / limited liability company, established by the press freedom NGO, International Media Support (IMS).  IMS is funded largely by the governments of Denmark, Sweden, and Norway.  This organizational structure is meant to build long-term sustainable services for the community.
+* **About the organization and its business model:** VirtualRoad.org is part of Media Frontiers, a social purpose enterprise registered in Denmark as an ApS / limited liability company, established by the press freedom NGO, International Media Support (IMS).  IMS is funded largely by the governments of Denmark, Sweden, and Norway.  This organizational structure is meant to build long-term sustainable services for the community.
 
-* **Additional Services: **VirtualRoad.org offers full-range protection encompassing a wide variety of services, from transferring your site to their systems, domain registration, optimization, security audits, protection from hacking and phishing, security reports detailing attempted attacks, and even support in responding to legal requests.  See [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages) for more details.
+* **Additional Services:** VirtualRoad.org offers full-range protection encompassing a wide variety of services, from transferring your site to their systems, domain registration, optimization, security audits, protection from hacking and phishing, security reports detailing attempted attacks, and even support in responding to legal requests.  See [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages) for more details.
 
-* **Technical needs: **You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
+* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
 
 * **Get Started Now:** Visit [https://virtualroad.org/contact](https://virtualroad.org/contact) or email [info@virtualroad.org](mailto:info@virtualroad.org) 
 
@@ -169,21 +168,21 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 
 * **Cost:** Pricing starts at $495/month for fully managed servers. Shared hosting may be available for only £125/year.
 
-* **Restrictions: **None
+* **Restrictions:** None
 
-* **About the organization and its business model: ** The Positive Internet Company is a for-profit company with offices in the UK and the US.
+* **About the organization and its business model:** The Positive Internet Company is a for-profit company with offices in the UK and the US.
 
-* **Additional Services: **Services are fully managed, including firewalls, databases, and backups. More information available here: [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)
+* **Additional Services:** Services are fully managed, including firewalls, databases, and backups. More information available here: [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)
 
-* **Technical needs: **You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. The Positive Internet Company provides technical assistance with onboarding and hosting.
+* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. The Positive Internet Company provides technical assistance with onboarding and hosting.
 
 * **Get Started Now:** Visit [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
 
 ### More Secure Hosting Organizations:
 
-* **Greenhost**: [https://greenhost.nl/order/](https://greenhost.nl/order/)** **Greenhost is a Dutch company founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
+* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/)** **Greenhost is a Dutch company founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
 
-* **Ecological and Dissident Hosting**: [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below)
+* **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below)
 
 * **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is based in Paris (France), with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
 
@@ -195,26 +194,26 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 
 ### Deflect
 
-* **Cost: **Free
+* **Cost:** Free
 
-* **Restrictions: **NGOs, human rights, independent media
+* **Restrictions:** NGOs, human rights, independent media
 
-* **About the organization and its business model: **Deflect is an open source project of eQualit.ie, a not-for-profit technology collective based in Montreal, Canada with deep roots in the human rights technology community.  Deflect is funded by NGOs and governments, including the US government, to provide Deflect services to protect the freedom of speech.  Deflect does not disclose the websites they protect nor need approval to provide service.  Deflect maintains servers with like-minded hosting companies around the world.
+* **About the organization and its business model:** Deflect is an open source project of eQualit.ie, a not-for-profit technology collective based in Montreal, Canada with deep roots in the human rights technology community.  Deflect is funded by NGOs and governments, including the US government, to provide Deflect services to protect the freedom of speech.  Deflect does not disclose the websites they protect nor need approval to provide service.  Deflect maintains servers with like-minded hosting companies around the world.
 
 * **Additional Services:** The Deflect team will support you getting on to their services.  They have some grant funding available to pay for additional SSL Certificates and other related protection/recovery costs.  Sites protected by Deflect can opt to add additional layers of security to their core site.
 
-* **Technical needs: **You will need the ability to change your nameservers.
+* **Technical needs:** You will need the ability to change your nameservers.
 
-* **Get Started Now: **[https://wiki.deflect.ca/signup/](https://wiki.deflect.ca/signup/).  See also [https://wiki.deflect.ca/wiki/Join_Deflect](https://wiki.deflect.ca/wiki/Join_Deflect)
+* **Get Started Now:** [https://wiki.deflect.ca/signup/](https://wiki.deflect.ca/signup/).  See also [https://wiki.deflect.ca/wiki/Join_Deflect](https://wiki.deflect.ca/wiki/Join_Deflect)
 
 ### CloudFlare
 
-* **Cost: **Free for basic protection, $20/month to include SSL support, and up to $200/month for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
+* **Cost:** Free for basic protection, $20/month to include SSL support, and up to $200/month for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
 
-* **Restrictions: **Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
+* **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
 
-* **About the organization and its business model: **Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
-It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is *not*** **a policy decision to block Tor.
+* **About the organization and its business model:** Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
+It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
 Cloudflare is required to comply with US legal requests and National Security Letters.
 
 * **Technical needs: **You will need the ability to change your nameservers.
@@ -223,17 +222,17 @@ Cloudflare is required to comply with US legal requests and National Security Le
 
 ### Google’s PageSpeed
 
-* **Cost: **Free during trial period.  There will be a 30-day notice before it changes to a fee-based model.
+* **Cost:** Free during trial period.  There will be a 30-day notice before it changes to a fee-based model.
 
-* **Restrictions:**** **You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.
+* **Restrictions:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.
 
-* **About the organization and its business model: **Google is an international, public, for-profit company based in Mountain View, California, USA.
+* **About the organization and its business model:** Google is an international, public, for-profit company based in Mountain View, California, USA.
 As with most Google products, this ties the Google account you use to your website. This service falls under Google’s overall privacy policy and terms of service.  
 Google is required to comply with US legal requests and National Security Letters.
 
-* **Technical needs: **You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
+* **Technical needs:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
 
-* **Get Started Now: **Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
+* **Get Started Now:** Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
 
 ## Related Services: Domain Name Registration
 
@@ -247,15 +246,15 @@ DDoS attacks also impact many other services around your website - the service t
 
 # Glossary
 
-* **CDN / Content Delivery Network**: A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
+* **CDN / Content Delivery Network:** A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
 
-* **DDoS / Distributed Denial of Service Attack**:  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
+* **DDoS / Distributed Denial of Service Attack:**  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
 * **Domain Name:** The human-readable name of your website - google.com, for example.
 
-* **DNS Record**: The DNS record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider’s address or a proxy for your original website.
+* **DNS Record:** The DNS record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider’s address or a proxy for your original website.
 
 * **Nameserver:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it’s Internet address / IP Address (74.125.228.69) via it’s DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
 
-* **Website host**: The server where your website and its files/databases are stored.
+* **Website host:** The server where your website and its files/databases are stored.
 
