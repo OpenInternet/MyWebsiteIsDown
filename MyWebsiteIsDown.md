@@ -2,7 +2,7 @@
 
 A threat that many independent journalists, news sites, and bloggers face is having their voices muted because their website is down.  In many cases, this may be an innocent if frustrating problem, but on occasion, it may be due to a "denial of service" attack.
 
-This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.  Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all.
+This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.  **Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all**.
 
  * [First Steps](#first-steps-diagnosing-other-potential-problems)
  * [Next Steps](#next-steps)
