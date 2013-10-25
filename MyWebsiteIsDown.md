@@ -141,10 +141,10 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 
 ### More Secure Hosting Organizations:
 
-* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost is a Dutch company founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
-* **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below)
-* **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is based in Paris (France), with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
-* **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways.
+* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
+* **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below).  EcoDissident is a service of [Webarchitects](http://www.webarchitects.coop/), a sustainable coöperative social enterprise.
+* **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is a French company, with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
+* **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
 
 ## Proxy Services
 
@@ -179,6 +179,10 @@ Google is required to comply with US legal requests and National Security Letter
 * **Technical needs:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
 * **Get Started Now:** For Pagespeed: Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
 * **Get Started Now:** For Project Shield: [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) . Note that Project Shield is currently invite only and providing access on a rolling basis.  After you sign up, you will "be notified via email if your site is selected to become a 'trusted tester'."
+
+### More Proxy Services
+
+There are many other organizations who offer tools to help protect sites from DDoS attacks. If you are or know of a service which focuses on protecting free speech against DDoS and should be listed here, please contribute.
 
 ## Related Services: Domain Name Registration
 
