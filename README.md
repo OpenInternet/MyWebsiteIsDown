@@ -4,8 +4,10 @@ MyWebsiteIsDown
 
 Documentation and guides for withstanding DDoS Attacks.
 
-Many thanks to the providers and advisors.
-
 Translations and updates are invited.
+
+Many thanks to the providers and advisors who helped review and suggest additions, including but by no means limited to the below:
+ * Cameran Ashraf
+
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/dc4c191166ab89785c89e222c02e5572 "githalytics.com")](http://githalytics.com/OpenInternet/MyWebsiteIsDown)
