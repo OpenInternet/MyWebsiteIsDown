@@ -24,7 +24,7 @@
 
 Как правило, проблемы в работе сайтов возникают по причине программных ошибок или технических проблем компании, которая обеспечивает хостинг сайта. Иногда другие сложности, например, причины юридического характера, могут привести к тому, что хостер отключает доступ к сайту. По возможности необходимо для начала связаться с доверенными лицами, которые могут помочь вам решить проблему с сайтом (ваш веб-мастер, люди, которые разрабатывали ваш сайт, ответственный персонал вашей компании, если имеется, а также компания, предоставляющая для вас услуги хостинга).
 
-After investigating these common challenges below, **Contact your webmaster and the site host!** The problem you face may not be reported on their status page yet, may be a temporary problem, or they may not yet be aware of the problem.  A good relationship with your service providers goes a long way - be clear and polite, and share the results of your investigation using these questions to help them quickly troubleshoot the problem.
+После того, как вы изучите наиболее частые проблемы, перечисляемые ниже, **Обратитесь к своему веб-мастеру и хостеру сайта!** The problem you face may not be reported on their status page yet, may be a temporary problem, or they may not yet be aware of the problem.  A good relationship with your service providers goes a long way - be clear and polite, and share the results of your investigation using these questions to help them quickly troubleshoot the problem.
 
 ## Список
 
