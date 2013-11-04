@@ -14,15 +14,15 @@
 
 ## Не ждите - приготовьтесь сейчас!
 
-**Даже если ваш сайт не подвергался атаке типа "отказ в обслуживании", это руководство предлагает шаги, необходимые для подготовки, которая, мы надеемся, позволит полностью избежать недоступности веб-сайта**.  Перейдите сразу к пункту [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack), чтобы узнать о самых распространенных решениях, которые вы можете использовать сейчас, чтобы избежать атакиd.
+**Даже если ваш сайт не подвергался атаке типа "отказ в обслуживании", это руководство предлагает шаги, необходимые для подготовки, которая, мы надеемся, позволит полностью избежать недоступности веб-сайта**.  Перейдите сразу к пункту [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack), чтобы узнать о самых распространенных решениях, которые вы сразу можете использовать, чтобы избежать атаку.
 
-If you are currently researching how to build your website to be resistant to attacks that might take it offline, you should first read through this guide by the Electronic Frontier Foundation: [https://www.eff.org/keeping-your-site-alive](https://www.eff.org/keeping-your-site-alive) .
+Если в настоящее время вы ищите информацию о том, как сделать ваш сайт устойчивым к атакам, которые могут привести к его недоступности, вам стоит для начала прочитать руководство, разработанное Фондом Электронных Рубежей (EFF или Electronic Frontier Foundation): [https://www.eff.org/keeping-your-site-alive](https://www.eff.org/keeping-your-site-alive).
 
-AccessNow provides a much more in-depth guide with many more resources and mitigation techniques in English, Farsi, Arabic, and Russian.  Visit [https://www.accessnow.org/policy/docs](https://www.accessnow.org/policy/docs) and click on DoS on the right side, or download a copy from [https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf](https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf)  .
+Организация AccessNow предоставляет более углублённое руководство, содержащее множество ресурсов и описывающее большее количество способов защиты на английском, фарси, арабоском и русском языке.  Посетите  [https://www.accessnow.org/policy/docs](https://www.accessnow.org/policy/docs) и кликните по надписи DoS с правой стороны экрана, или скачайте копию руководства здесь: [https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf](https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf).
 
-# First Steps: Diagnosing other potential problems
+# Первые шаги: Диагностика других потенциальных проблем
 
-Sites most often go down due to programming errors or technical problems at the company that hosts the site.  Sometimes, other things like legal challenges can cause a host to turn a site off as well.  Let’s first try to check for these common problems.  When possible, the best first step is to contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them, and the company that hosts your site).  
+Как правило, проблемы в работе сайтов возникают по причине программных ошибок или технических проблем компании, которая обеспечивает хостинг сайта. Иногда другие сложности, например, причины юридического характера, могут привести к тому, что хостер отключает доступ к сайту. По возможности необходимо для начала связаться с доверенными лицами, которые могут помочь вам решить проблему с сайтом (ваш веб-мастер, люди, которые разрабатывали ваш сайт, ответственный персонал вашей компании, если имеется, а также компания, предоставляющая для вас услуги хостинга).
 
 After investigating these common challenges below, **Contact your webmaster and the site host!** The problem you face may not be reported on their status page yet, may be a temporary problem, or they may not yet be aware of the problem.  A good relationship with your service providers goes a long way - be clear and polite, and share the results of your investigation using these questions to help them quickly troubleshoot the problem.
 
