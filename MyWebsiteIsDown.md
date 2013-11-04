@@ -12,9 +12,9 @@
 
 *Все технические термины представленны в [глоссарии](#glossary), в конце этого руководства.*
 
-## Don't wait - prepare now!
+## Не ждите - приготовьтесь сейчас!
 
-**Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all**.  Go straight to the [Responding to a Denial of Service Attack](#responding-to-a-denial-of-service-attack) to investigate common solutions you can implement now, before being attacked.
+**Даже если ваш сайт не подвергался атаке типа "отказ в обслуживании", это руководство предлагает шаги, необходимые для подготовки, которая, мы надеемся, позволит полностью избежать недоступности веб-сайта**.  Перейдите сразу к пункту [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack), чтобы узнать о самых распространенных решениях, которые вы можете использовать сейчас, чтобы избежать атакиd.
 
 If you are currently researching how to build your website to be resistant to attacks that might take it offline, you should first read through this guide by the Electronic Frontier Foundation: [https://www.eff.org/keeping-your-site-alive](https://www.eff.org/keeping-your-site-alive) .
 
