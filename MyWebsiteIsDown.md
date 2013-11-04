@@ -26,7 +26,7 @@
 
 After investigating these common challenges below, **Contact your webmaster and the site host!** The problem you face may not be reported on their status page yet, may be a temporary problem, or they may not yet be aware of the problem.  A good relationship with your service providers goes a long way - be clear and polite, and share the results of your investigation using these questions to help them quickly troubleshoot the problem.
 
-## Checklist
+## Список
 
 1. **Are you seeing error messages?** This could be a ***software problem***, and you should reflect on an recent changes you or your team may have made, and contact your webmaster. Sending your webmaster a screenshot, the link of the page you are having problems with, and any error messages you see will help them figure out what might be the cause of the problem. You might also copy the error messages into a search to see if they are easily fixed.
 2. **Are you seeing a message from your web hosting provider?** You could have been taken offline for legal, copyright, billing, or other reasons.  This is a ***policy problem***, and the resources provided by the EFF, while focused on US copyright laws, are a good place to learn more: [https://www.eff.org/issues/bloggers/legal/liability/IP](https://www.eff.org/issues/bloggers/legal/liability/IP).
