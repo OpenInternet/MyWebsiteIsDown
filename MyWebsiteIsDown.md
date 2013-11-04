@@ -1,4 +1,4 @@
-# What to do when your website goes down
+# Что делать, когда ваш сайт теряет работоспособность
 
 A threat that many independent journalists, news sites, and bloggers face is having their voices muted because their website is down.  In many cases, this may be an innocent if frustrating problem, but on occasion, it may be due to a "denial of service" attack.
 
