@@ -1,14 +1,14 @@
 # Что делать, когда ваш сайт теряет работоспособность
 
-A threat that many independent journalists, news sites, and bloggers face is having their voices muted because their website is down.  In many cases, this may be an innocent if frustrating problem, but on occasion, it may be due to a "denial of service" attack.
+Угроза, с которой сталкиваются многие независимые журналисты, новостные сайты и блогеры, это когда их голоса неслышны из-за того, что их сайты недоступны. Во многих случаях причиной неработоспособности сайта могут быть простые и даже глупые ошибки, но в некоторых случаях, причиной может быть атака типа "отказ в обслуживании" (от англ. DoS или Denial of Service).
 
-This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.
+Этот документ поможет вам сделать первые шаги в диагностике потенциальных проблем. Если ваш сайт подвергается атаке типа "отказ в обслуживании" (DoS), мы предложим некоторые неотложные меры.
 
- * [First Steps](#first-steps-diagnosing-other-potential-problems)
- * [Next Steps](#next-steps)
- * [Responding to a Denial of Service Attack](#responding-to-a-denial-of-service-attack)
- * [Before you choose a service](#before-you-choose)
- * [DDoS Mitigation Services](#mitigation-services)
+ * [Первые шаги](#first-steps-diagnosing-other-potential-problems)
+ * [Дальнейшие шаги](#next-steps)
+ * [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack)
+ * [Перед тем как выбрать сервис](#before-you-choose)
+ * [Сервисы защиты от DDoS атак](#mitigation-services)
 
 *All technical terms are further defined in the [glossary](#glossary) at the end of this guide.*
 
