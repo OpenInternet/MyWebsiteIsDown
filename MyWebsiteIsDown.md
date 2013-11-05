@@ -37,11 +37,11 @@
 
 ### Советы
 
-* **Backups** In addition to the services and suggestions below, it’s always good to make sure you have backups (that you store somewhere other than the same place your website is!) - many hosts and website platforms have this included; but it’s best to also have additional, offline copies.
-* **Keep up to date** If you are using a Content Management System (CMS) such as WordPress or Drupal, check to make sure that your website technology is updated to the latest software, especially if there have been security updates.
-* **Monitoring** There are many services that can constantly check on your site and email or text you if it goes down. [This Mashable article](http://mashable.com/2010/04/09/free-uptime-monitoring/) lists 10 popular ones. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
+* **Резервные копии** В дополнение к услугам и предложениям, представленным ниже, нужно всегда делать резервные копии (сохранять их нужно не в том же месте, где расположен ваш веб-сайт!) - многие хостинговые и веб-сайт платформы включают эту функцию по умолчанию; но лучше всего в дополнение иметь копии, сохраненные на локальном жестком диске.
+* **Установка обновлений** Если вы пользуетесь Системой Управления Содержимым (от англ. CMS или Content Management System), такой как  WordPress или Drupal, убедитесь что программное обеспечение вашего сайта обновлено до последней версии, особенно это касается обновлений, влияющих на безопасность.
+* **Мониторинг** Есть множество сервисов, которые могут постоянно проверять доступность вашего сайта и сообщать вам по эл. почте или смс, если сайт недоступен. [Эта статья с Mashable](http://mashable.com/2010/04/09/free-uptime-monitoring/) содержит список 10 наиболее популярных сервисов мониторинга. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
 
-# Next Steps
+# Дальнейшие шаги
 
 If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
@@ -49,7 +49,7 @@ If the above diagnoses do not help (or you are experiencing a severe ***performa
 
 This [video from Google's Project Shield](https://www.youtube.com/watch?v=wmTvv8ISwPA) provides a great description of these attacks.
 
-# Responding to a Denial of Service Attack
+# Как реагировать на DoS атаку
 
 **Don’t wait until you have been attacked!**  All of the services listed below will work quickly to help you recover during or after an attack, but you can get protected now, before any attack happens!  This can reduce costs by lowering your bandwidth usage, and keep you online during an attack.  Once you’ve been hit, it can take up to three days for the Internet to "find" you at your new, protected address - so in almost every case, it’s much better to **be prepared and get started now**.  The first step is to work with the company you bought your domain from, and change the “Time to Live” or TTL to 1 hour.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
 
