@@ -102,16 +102,16 @@
 
 ### Касательно всех сервисов:
 
-* How is the company/organization structured and sustained?  What types of vetting or reporting are the required to do, if any?
-* Consider what country/countries they have a legal presence in and would be required to comply with law enforcement and other legal requests
-* What logs are created, and for how long are they available?
-* Are there restrictions that impact you on what content the service will host/proxy?
-* Are there restrictions on the countries where they can provide service?
-* Do they accept a form of payment you can use? Can you afford their service?
-* Secure communications -- you should be able to log in securely and communicate with the service provider privately.
-* Is there an option for two-factor authentication, to improve the security of administrator access?  This or related secure access policies can help reduce the threat of other forms of attacks against your website.
-* What type of ongoing support will you have access to?  Is there an additional cost for support, and/or will you receive sufficient support if you are using a "free" tier?
-* Can you "test-drive" your website before you move over via a staging site?
+* Как компания/организация структурирована и за счёт чего поддерживает своё существование? Какие типы проверки и отчетности выполняются, есть ли таковые?
+* Примите во внимание информацию о том, в какой стране/ в каких странах компания имеет легальное присутствие и, соответственно, каким юридическим запросам и запросам со стороны правоохранительных органов должна подчиняться
+* Какие данные регистрируются в лог-файлах и какое время они хранятся?
+* Есть ли касающиеся вас ограничения, например, тематические разновидности контента, неприемлемые для данного сервиса?
+* Есть ли ограничения касающиеся стран, в которых провайдер может предоставлять сервис?
+* Принимают ли они предпочитаемую вами форму оплаты? Можете ли вы позволить себе регулярную оплату их услуг?
+* Безопасное общение -- вы должны иметь возможность безопасного подключения к сайту и конфиденциальной коммуникации с поставщиком услуг.
+* Поддерживает ли сервис двухфакторную аутентификацию, чтобы повысить уровень безопасности административного доступа? Это и другие правила безопасности могут позволить вам снизить риск других возможных атак на ваш веб-сайт.
+* Какие типы постоянной поддержки входят в состав приобретаемого вами пакета услуг? Есть ли дополнительные виды расходов, связанные с поддержкой, и/или вы получите достаточный уровень поддержки даже при использовании "бесплатного" пакета?
+* Можете ли вы потестировать услуги с помощью временного сайта, прежде чем полностью перенести ваш веб-сайт?
 
 ### Касательно хостируемых сервисов
 
