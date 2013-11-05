@@ -5,7 +5,7 @@
 Этот документ поможет вам сделать первые шаги в диагностике потенциальных проблем. Если ваш сайт подвергается атаке типа "отказ в обслуживании" (DoS), мы предложим некоторые неотложные меры.
 
  * [Первые шаги](#first-steps)
- * [Дальнейшие шаги](#next-steps)
+ * [Дальнейшие шаги](# Дальнейшие шаги)
  * [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack)
  * [Перед тем как выбрать сервис](#before-you-choose)
  * [Сервисы защиты от DDoS атак](#mitigation-services)
@@ -41,7 +41,7 @@
 * **Установка обновлений** Если вы пользуетесь Системой Управления Содержимым (от англ. CMS или Content Management System), такой как  WordPress или Drupal, убедитесь что программное обеспечение вашего сайта обновлено до последней версии, особенно это касается обновлений, влияющих на безопасность.
 * **Мониторинг** Есть множество сервисов, которые могут постоянно проверять доступность вашего сайта и сообщать вам по эл. почте или смс, если сайт недоступен. [Эта статья с Mashable](http://mashable.com/2010/04/09/free-uptime-monitoring/) содержит список 10 наиболее популярных сервисов мониторинга. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
 
-# Next steps
+# Дальнейшие шаги
 
 If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
