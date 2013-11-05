@@ -10,7 +10,7 @@
  * [Перед тем как выбрать сервис](#before-you-choose)
  * [Сервисы защиты от DDoS атак](#mitigation-services)
 
-*Все технические термины представленны в [глоссарии](#glossary), в конце этого руководства.*
+*Все технические термины представленны в [глоссарии](#глоссарий), в конце этого руководства.*
 
 ## Не ждите - приготовьтесь сейчас!
 
@@ -208,7 +208,7 @@ DDoS attacks also impact many other services around your website - the service t
 * 1984.is [https://www.1984.is/](https://www.1984.is/)
 * Hover.com [https://www.hover.com/](https://www.hover.com/)
 
-# Glossary
+# Глоссарий
 
 * **CDN / Content Delivery Network:** A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
 * **DDoS / Distributed Denial of Service Attack:**  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
