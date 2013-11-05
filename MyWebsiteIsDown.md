@@ -7,7 +7,7 @@
  * [Первые шаги](#first-steps)
  * [Дальнейшие шаги](#next-steps)
  * [Как реагировать на DoS атаку](#responding-to-a-denial-of-service-attack)
- * [Перед тем как выбрать сервис](#before-you-choose)
+ * [Перед тем, как выбрать сервис](#before-you-choose)
  * [Сервисы защиты от DDoS атак](#mitigation-services)
 
 *Все технические термины представленны в [глоссарии](#glossary), в конце этого руководства.*
@@ -90,13 +90,13 @@
 
 ## Возможности кастомизации
 
-It’s important to note that there are many ways to combine these approaches.  Many websites use what is called a Content Delivery Network (CDN), which takes some of the burden (serving images and other static content) off of a website and speeds it up greatly.  Dynamic sites (such as those powered by content management systems like Joomla, Wordpress and Drupal), can sometimes be "converted" into static sites that can be fully hosted (mirrored) using CDNs. 
+Важно иметь в виду, что есть много вариантов комбинирования этих двух подходов. Многие веб-сайты используют так называемую сеть доставки контента (CDN), которая снимает часть нагрузки (предоставление изображений и другого статического контента) с веб-сайта и существенно ускоряет его работу. Динамические сайты (например, построенные на основе таких систем управления содержимым (CMS) как Joomla, Wordpress and Drupal), могут иногда "конвертироваться" в статические сайты, которые могут полностью передаваться с использованием сетей доставки донтента (CDN).
 
-Content Delivery Networks can help reduce bandwidth costs and load during DDoS attacks, which, if your host is powerful enough for the rest, can get you through.  There are hundreds of CDN services, including Akamai and Amazon CloudFront.  MaxCDN has a free level of service, but generally, cost scales with bandwidth, meaning that these may become a financial drain during a DDoS attack. These often require a bit of technical expertise to get working, and you should work with your webmaster.
+Сети доставки контента (CDN) позволяют сократить расходы за полосу пропускания и уменьшить нагрузку во время DDoS атак, что, в случае если у вас достаточно мощный хостер, может позволить вам выстоять атаку. Существует сотни CDN сервисов, включая Akamai и Amazon CloudFront.  MaxCDN также предлагает бесплатный пакет услуг, но в целом цена растет с увеличением полосы пропускания, что может означать финансовые потери во время DDoS атак. Эта технология, как правило, требует определенных технических знаний при установке, и вам нужно поработать со своим веб-мастером.
 
-Another option to investigate is to "mirror" your content across multiple different sites.  This is especially valuable if your content is being targeted for blocking or removal.
+Ещё одна интересная возможность - это установка "зеркал" с вашим контентом на нескольких разных сайтах. Это особенно ценный совет, если ваш контент подвергается атаке с целью блокировки или уничтожения.
 
-## Before you choose
+## Перед тем, как выбрать сервис
 
 Finally, for any service, you must be comfortable with the provider - that means trust, but also understanding their business model:  Is it fee-for-service?  If there’s a free version, does it receive less support than a paid alternative?  Is it funded by governments?   It is best to cover as much detail up front as possible to avoid surprises down the road.
 
