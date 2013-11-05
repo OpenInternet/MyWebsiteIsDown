@@ -73,20 +73,20 @@
 
 ## Проксируемые сервисы
 
-Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.  One challenge with proxied services is that very complex websites can sometimes experience problems with non-admin user logins and complex interactive/javascript area.  Please discuss these with your webmaster and the proxy service as most can be resolved.
+Проксируемые сервисы позволяют вам не менять хостинг провайдера, и лишь меняют процедуру поиска и подключения пользователей Интернета к вашему веб-сайту. Как правило, такой сервис намного легче установить.  Такие сервисы имеют среверы по всему миру. По сути серверы располагаются перед вашим сайтом пропускают через себя трафик, очищая его от вредоносных элементов. Они выполняют функцию "зеркал" и передают постоянно обновляющуюся копию вашего сайта. Установка таких сервисов крайне проста, и вы сохраняете полный контроль над настройками вашего веб-сайта и хостинга. Основной проблемой проксируемых сервисов является то, что очень сложные веб-сайты иногда некорректно работают при подключении пользователей, не имеющих прав администратора. Также известны проблемы при работе сложных интерактивных и javascript сайтов. Пожалуйста, обсудите эти сложности со своим веб-мастером и провайдером проксируемого сервиса, так как большинство проблем могут быть разрешены.
 
 ### Достоинства:
 
-* Lower cost (often with a free level)
-* Quick and easy to set up
-* You don’t have to change your existing website host
-* You can change or quit the service at any time
+* Низкая стоимость (как правило, с возможностью бесплатного пакета)
+* Быстрая и легкая установка
+* Отсутствие необходимости менять хостинг провайдера
+* Вы можете изменить пакет или отказаться от услуг в любой момент
 
 ### Недостатки:
 
-* Fewer support options
-* Focused primarily on just mitigating DDoS attacks - does not necessarily include help with malware or spammers.
-* SSL (encrypted) traffic will be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.
+* Меньше возможностей поддержки
+* Как правило, основной фокус направлен на предотвращение только DDoS атак - сервис далеко не всегда включает помощь от вредоносного программного обеспечения и спамеров.
+* SSL (шифрованный) трафик будет быстро расшифровываться и снова зашифровываться прокси-сервером для его передачи с их прокси на ваш сервер.
 
 ## Возможности кастомизации
 
