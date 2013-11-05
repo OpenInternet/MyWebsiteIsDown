@@ -125,9 +125,9 @@
 
 ### Касательно проксируемых сервисов:
 
-* If you use SSL  (also known as HTTPS or secure web traffic), ask how they manage SSL.  In some configurations, it may be easiest to share your private SSL key.  If you do so, you need to have a high level of trust in the service provider, as they can "impersonate" your site (indeed, this is what you are asking them to do by providing a proxy!)
-* Ask about how administration / editorial logins and pages are managed
-* Talk about any interactive parts of your website (users who log in, comment, admin/editorial needs, complex interactive pages/javascript/animations) -- different proxy services manage these differently; you will need to test these before switching completely.
+* Если вы пользуетесь SSL (HTTPS или безопасный веб-трафик), спросите как они работают с SSL. В некоторых конфигурациях, самый простой вариант, если вы предоставляете свой секретный SSL ключ. В этом случае, вы должны иметь очень доверять поставщику услуг, так как они могут "подделать" ваш сайт (на самом деле, именно это вы и простите их сделать, предоставляя вам прокси!)
+* Спросите о том, как осуществляется работа с административными / редакционными логинами и страницами
+* Обсудите интерактивные части вашего веб-сайта (пользователи, которые входят на сервис, комментируют, административные и редакционные требования, сложные интерактивные страницы / javascript / анимации). Разные прокси-сервисы по разному работают с этими элементами веб-сайта; вы должны будете потестировать их прежде чем окончательно перейти на использование сервиса.
 
 # Mitigation Services
 
