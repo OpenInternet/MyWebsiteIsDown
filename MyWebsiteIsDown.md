@@ -51,44 +51,44 @@
 
 # Как реагировать на DoS атаку
 
-**Не ждите когда на вас нападут!** Все описываемые ниже сервисы позволят вам быстро восстановиться во время или после атаки, но вы можете защититься сейчас, перед тем как атака произошла! Это позволит сократить расходы путем снижения уровня использования вашей полосы пропускания и оставить ваш сайт доступным во время атаки. После атаки, процесс "идентификации" вашего нового защищенного адреса Интернетом может занять до трех дней. Поэтому практически в любом случае лучше **обезопаситься и начать сейчас**. Первый шаг - это работа с компанией, у которой вы приобрели доменное имя, и установить параметр Время Жизни (от англ. TTL или “Time to Live”) на 1 час.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
+**Не ждите когда на вас нападут!** Все описываемые ниже сервисы позволят вам быстро восстановиться во время или после атаки, но вы можете защититься сейчас, перед тем как атака произошла! Это позволит сократить расходы путем снижения уровня использования вашей полосы пропускания и оставить ваш сайт доступным во время атаки. После атаки, процесс "идентификации" вашего нового защищенного адреса Интернетом может занять до трех дней. Поэтому практически в любом случае лучше **обезопаситься и начать сейчас**. Для начала свяжитесь с компанией, у которой вы приобрели доменное имя, и попросите их установить параметр время жизни (от англ. TTL или “Time to Live”) на 1 час. Это позволит вам существенно сократить время, необходимое для перенаправления запросов, отправленных на ваш сайт во время атаки (по умолчанию это значение устанавливается на 72 часа, или три дня).
 
-There are many services that can help you with denial of service attacks; and they fall (very broadly) into two categories - **hosted** and **proxied** services.
+Существует множество сервисов, которые могут помочь вам в борьбе против DoS атак; и (очень обобщенно) их можно разделить на две главные категории - **хостируемые** и **проксируемые** сервисы.
 
-## Hosted Services
+## Хостируемые сервисы
 
-Hosted services require you to move your website completely to their servers - you’re changing hosting providers.  Many of them can help you through this.  The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website. Hosted services may also use a mixture of the same technology as *proxied services* below.
+Хостируемые сервисы предполагают полное перемещение веб-сайта на их сервер, то есть вы меняете хостинг провайдера. Многие из них в результате помогут вам. Явным плюсом при этом является то, что хостируемые сервисы, как правило, предлагают множество других возможностей защиты в дополнение к предотвращению DDoS атак; минусом может оказаться высокая стоимость (в зависимости от того, сколько вы платите сейчас) и контроль - вам придется доверять хостеру домена, так как у них будет множество рычагов контроля над вашим веб-сайтом. Хостируемые сервисы могут также использовать технологии *проксируемых сервисов*, описанных ниже.
 
-### Pros:
+### Достоинства:
 
-* Provides one central service for most, if not all, your website needs
-* Often includes many secondary services and consulting, and even limited legal defense in some cases
-* Full support teams often on staff to help
+* Предоставляют собой один централизированный сервис для удавлетворения большинства (если не всех) ваших нужд;
+* Часто включает в себя множество вторичных сервисов и консультаций, а в некоторых случаях даже ограниченную юридическую защиту
+* Полная поддержка со стороны команды по работе с клиентами, для помощи вашему персоналу
 
-### Cons:
+### Недостатки:
 
-* You must host your website with the service
-* You must trust the service to manage your site and defend your rights
-* These services often are much more expensive (but you don’t have to pay other hosting / DNS services anymore!)
+* Вы должны перенести ваш веб-сайт на сервер сервиса
+* Вы должны доверять сервису, позволяя управлять вашим сайтом и защищать ваши права
+* Как правило, подобные сервисы намного более дорогие (но вам не придется больше платить другим хостинг / DNS сервисам!)
 
-## Proxied Services
+## Проксируемые сервисы
 
 Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.  One challenge with proxied services is that very complex websites can sometimes experience problems with non-admin user logins and complex interactive/javascript area.  Please discuss these with your webmaster and the proxy service as most can be resolved.
 
-### Pros:
+### Достоинства:
 
 * Lower cost (often with a free level)
 * Quick and easy to set up
 * You don’t have to change your existing website host
 * You can change or quit the service at any time
 
-### Cons:
+### Недостатки:
 
 * Fewer support options
 * Focused primarily on just mitigating DDoS attacks - does not necessarily include help with malware or spammers.
 * SSL (encrypted) traffic will be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.
 
-## Custom Options
+## Возможности кастомизации
 
 It’s important to note that there are many ways to combine these approaches.  Many websites use what is called a Content Delivery Network (CDN), which takes some of the burden (serving images and other static content) off of a website and speeds it up greatly.  Dynamic sites (such as those powered by content management systems like Joomla, Wordpress and Drupal), can sometimes be "converted" into static sites that can be fully hosted (mirrored) using CDNs. 
 
