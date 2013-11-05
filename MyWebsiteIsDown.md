@@ -98,9 +98,9 @@
 
 ## Перед тем, как выбрать сервис
 
-Finally, for any service, you must be comfortable with the provider - that means trust, but also understanding their business model:  Is it fee-for-service?  If there’s a free version, does it receive less support than a paid alternative?  Is it funded by governments?   It is best to cover as much detail up front as possible to avoid surprises down the road.
+В результате, какой бы сервис вы не выбрали, вы должны быть довольны провайдером. Это означает доверие, а также понимание бизнес модели провайдера: заключается ли она в выражении "плата в обмен на услугу"?  Если есть бесплатная версия, подразумевает ли она меньше поддержки, чем в случае с платной альтернативой? Основана ли компания правительством? Лучше узнать насколько возможно больше деталей, чтобы избежать сюрпризов в будущем.
 
-### For all services:
+### Касательно всех сервисов:
 
 * How is the company/organization structured and sustained?  What types of vetting or reporting are the required to do, if any?
 * Consider what country/countries they have a legal presence in and would be required to comply with law enforcement and other legal requests
@@ -113,7 +113,7 @@ Finally, for any service, you must be comfortable with the provider - that means
 * What type of ongoing support will you have access to?  Is there an additional cost for support, and/or will you receive sufficient support if you are using a "free" tier?
 * Can you "test-drive" your website before you move over via a staging site?
 
-### For hosted services
+### Касательно хостируемых сервисов
 
 * Do they offer full support on moving your site over?
 * Are the services equal or better options than your current host, at least for tools/services you use?  Top things to check are:
@@ -123,7 +123,7 @@ Finally, for any service, you must be comfortable with the provider - that means
     * Remote access via SFTP/SSH
     * Support for the programming language (PHP, Perl, Ruby, cgi-bin access...) or CMS (Drupal, Joomla, Wordpress…) your site uses
 
-### For proxied services:
+### Касательно проксируемых сервисов:
 
 * If you use SSL  (also known as HTTPS or secure web traffic), ask how they manage SSL.  In some configurations, it may be easiest to share your private SSL key.  If you do so, you need to have a high level of trust in the service provider, as they can "impersonate" your site (indeed, this is what you are asking them to do by providing a proxy!)
 * Ask about how administration / editorial logins and pages are managed
