@@ -51,7 +51,7 @@
 
 # Как реагировать на DoS атаку
 
-**Don’t wait until you have been attacked!**  All of the services listed below will work quickly to help you recover during or after an attack, but you can get protected now, before any attack happens!  This can reduce costs by lowering your bandwidth usage, and keep you online during an attack.  Once you’ve been hit, it can take up to three days for the Internet to "find" you at your new, protected address - so in almost every case, it’s much better to **be prepared and get started now**.  The first step is to work with the company you bought your domain from, and change the “Time to Live” or TTL to 1 hour.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
+**Не ждите когда на вас нападут!** Все описываемые ниже сервисы позволят вам быстро восстановиться во время или после атаки, но вы можете защититься сейчас, перед тем как атака произошла! Это позволит сократить расходы путем снижения уровня использования вашей полосы пропускания и оставить ваш сайт доступным во время атаки. После атаки, процесс "идентификации" вашего нового защищенного адреса Интернетом может занять до трех дней. Поэтому практически в любом случае лучше **обезопаситься и начать сейчас**. Первый шаг - это работа с компанией, у которой вы приобрели доменное имя, и установить параметр Время Жизни (от англ. TTL или “Time to Live”) на 1 час.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
 
 There are many services that can help you with denial of service attacks; and they fall (very broadly) into two categories - **hosted** and **proxied** services.
 
