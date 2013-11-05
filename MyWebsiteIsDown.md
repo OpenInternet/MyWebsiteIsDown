@@ -115,13 +115,13 @@
 
 ### Касательно хостируемых сервисов
 
-* Do they offer full support on moving your site over?
-* Are the services equal or better options than your current host, at least for tools/services you use?  Top things to check are:
-    * Management dashboards like cPanel
-    * Email accounts (how many, quotas, access via SMTP, IMAP)
-    * Databases (how many, types, access)
-    * Remote access via SFTP/SSH
-    * Support for the programming language (PHP, Perl, Ruby, cgi-bin access...) or CMS (Drupal, Joomla, Wordpress…) your site uses
+* Предоставляет ли провайдер услуги поддержку при переносе вашего сайта на их платформу?
+* Предоставляемые ими услуги аналогичны или лучше тех, которые в настоящее время входят в ваш хостинг пакет, как минимум, относительно инструментов/сервисов, которые вы используете? Основные элементы, которые надо проверить:
+    * Панель управления, такая, например, как cPanel
+    * Учетные записи эл. почты (сколько, ограничения, доступ через SMTP, IMAP)
+    * Базы данных (сколько, типы, доступ)
+    * Удаленный доступ через SFTP/SSH
+    * Поддержка языков программирования (PHP, Perl, Ruby, cgi-bin доступ...) или CMS (Drupal, Joomla, Wordpress…), используемых вашим сайтом
 
 ### Касательно проксируемых сервисов:
 
