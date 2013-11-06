@@ -164,16 +164,16 @@
 
 ## Проксируемые сервисы
 
-Again, this is by no means an exhaustive list; there are thousands of commercial services which offer variants of proxy and CDN tools which can help defend against DDoS attacks.  This list focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.
+Опять же, это не полный список сервисов; существуют тысячи коммерческих сервисов, предоставляющих различные прокси и CDN инструменты, которые могут помочь в защите от DDoS атак.  - их существует огромное множество. При создании этого списка авторы фокусировались на тех сервисах, которые можно быстро задействовать и которые имеют хорошую репутацию содействия защите свободы слова в сети.
 
 ### Deflect
 
-* **Cost:** Free
-* **Restrictions:** NGOs, human rights, independent media
-* **About the organization and its business model:** Deflect is an open source project of eQualit.ie, a not-for-profit technology collective based in Montreal, Canada with deep roots in the human rights technology community.  Deflect is funded by NGOs and governments, including the US government, to provide Deflect services to protect the freedom of speech.  Deflect does not disclose the websites they protect nor need approval to provide service.  Deflect maintains servers with like-minded hosting companies around the world.
-* **Additional Services:** The Deflect team will support you getting on to their services.  They have some grant funding available to pay for additional SSL Certificates and other related protection/recovery costs.  Sites protected by Deflect can opt to add additional layers of security to their core site.
-* **Technical needs:** You will need the ability to change your nameservers.
-* **Get Started Now:** [https://wiki.deflect.ca/signup/](https://wiki.deflect.ca/signup/).  See also [https://wiki.deflect.ca/wiki/Join_Deflect](https://wiki.deflect.ca/wiki/Join_Deflect)
+* **Стоимость:** Бесплатно
+* **Ограничения:** НПО, правозащитные организации и независимые медиа
+* **Об организации и её бизнес модели:** Deflect - это проект с отрытым кодом, пренадлежащий eQualit.ie, некоммерческому технологическому коллективу, расположенному в Монтреале (Канада). Коллектив имеет глубоко уходящие корни в технологическом правозащитном сообществе.  Deflect образован неправительственными организациями и правительствами, включая правительство США, с целью предоставления услуг Deflect для защиты свободы слова. Deflect не дает информацию о том, какие сайты находятся под его защитой и не нуждается в разрешении для предоставления услуг. Deflect поддерживает работу серверов в сотрудничестве с другими хостинговыми компаниями по всему миру, являющиеся их единомышленниками.
+* **Дополнительные услуги:** Команда проекта Deflect поможет вам подключить их услуги. У них есть некоторые гранты для финансирования дополнительных сертификатов SSL и покрытия других расходов, связанных с защитой и восстановлением от кибер атак. Сайты, находящиеся под защитой Deflect, могут быть оснащены дополнительными слоями защиты.
+* **Технические требования:** Вам необходимо иметь право редактирования полей Nameservers.
+* **Начните сейчас:** [https://wiki.deflect.ca/signup/](https://wiki.deflect.ca/signup/).  Для дальнейшего ознакомления см.[https://wiki.deflect.ca/wiki/Join_Deflect](https://wiki.deflect.ca/wiki/Join_Deflect)
 
 ### CloudFlare
 
