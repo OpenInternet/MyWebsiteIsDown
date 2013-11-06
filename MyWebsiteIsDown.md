@@ -129,22 +129,22 @@
 * Спросите о том, как осуществляется работа с административными / редакционными логинами и страницами
 * Обсудите интерактивные части вашего веб-сайта (пользователи, которые входят на сервис, комментируют, административные и редакционные требования, сложные интерактивные страницы / javascript / анимации). Разные прокси-сервисы по разному работают с этими элементами веб-сайта; вы должны будете потестировать их прежде чем окончательно перейти на использование сервиса.
 
-# Mitigation Services
+# Сервисы защиты от DDoS атак
 
-All of the services listed below provide protection against DDoS attacks.  This is not a complete listing of services - there are many, many more.  These services all represent good starting points, as they have been used by other members in the independent media / human rights / free speech communities.
+Все представленные ниже сервисы предоставляют защиту от DDoS атак. Это не полный список сервисов - их существует огромное множество. Для начала вам подойдет любой из представленных здесь сервисов, так как все они использовались другими членами сообществ независимых медиа / правозащитников / борцов за свободу слова.
 
-## Hosted Services
+## Хостируемые сервисы
 
-This by no means is an exhaustive list.  It focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.  Please note that prices for hosted services are not directly comparable to those of proxy services.  Hosted services will take the place of any existing cost for website hosting.
+Этот список ни в коем случае не является исчерпывающим. При создании этого списка авторы фокусировались на тех сервисах, которые можно быстро задействовать и которые имеют хорошую репутацию содействия защите свободы слова в сети. Пожалуйста, обратите внимание на тот факт, что цены за услуги хостируемых сервисов не могут напрямую сравниваться с ценами за услуги проксируемых сервисов. Хостируемые сервисы включают в себя все существующие расходы за хостинг веб-сайта.
 
 ### VirtualRoad.org
 
-* **Cost:** Pricing starts at €100/month for simple sites.  Other tiers for more complex hosting needs or higher resource demands are available.
-* **Restrictions:** None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar)
-* **About the organization and its business model:** VirtualRoad.org is part of Media Frontiers, a social purpose enterprise registered in Denmark as an ApS / limited liability company, established by the press freedom NGO, International Media Support (IMS).  IMS is funded largely by the governments of Denmark, Sweden, and Norway.  This organizational structure is meant to build long-term sustainable services for the community.
-* **Additional Services:** VirtualRoad.org offers full-range protection encompassing a wide variety of services, from transferring your site to their systems, domain registration, optimization, security audits, protection from hacking and phishing, security reports detailing attempted attacks, and even support in responding to legal requests.  See [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages) for more details.
-* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
-* **Get Started Now:** Visit [https://virtualroad.org/contact](https://virtualroad.org/contact) or email [info@virtualroad.org](mailto:info@virtualroad.org) 
+* **Стоимость:** Цены от €100/месяц за простые сайты. Существуют и другие классы услуг для сайтов с более серьезными требованиями к хостингу и ресурсам.
+* **Ограничения:** Отсутствуют, хотя сервис адаптирован под системы управления содержимым, использующие PHP (например, Joomla, Drupal, Wordpress или их аналоги)
+* **Об организации и её бизнес модели:** VirtualRoad.org является частью Media Frontiers, компания с социальной целью, зарегистрированная в Дании как ApS (компания с ограниченной ответственностью). Media Frontiers, в свою очередь, созданна по инициативе неправительственной организации (НПО) по защите свободы прессы под названием International Media Support (IMS). Главным образом IMS финансируется со стороны правительств Дании, Швеции и Норвегии. Эта организационная структура задумывалась для того, чтобы обеспечить устойчивые на протяжении долгого времени услуги для сообщества.
+* **Дополнительные услуги:** VirtualRoad.org предлагает полную защиту, включающую широкий спектр услуг, от переноса вашего сайта на их платформу, регистрацию доменного имени, оптимизацию, проверку безопасности, защиту от взломов и фишинговых атак, отчеты о безопасности с детализированной информации и совершенных попытках нападения, и даже поддержку по теме реагирования на юридические запросы.  Для получения более детальной информации, пожалуйста, посетите сайт: [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages).
+* **Технические требования:** Вам понадобится иметь полный доступ к back-end версии сайта или резервным копиям вашего веб-сайта, а также право редактировать поля Nameservers. Если вам необходима техническая поддержка касательно перехода на новый хостинг или его работы, VirtualRoad.org всегда смогут её оказать.
+* **Начните сейчас:** Посетите [https://virtualroad.org/contact](https://virtualroad.org/contact) или отправьте эл. письмо на адрес [info@virtualroad.org](mailto:info@virtualroad.org) 
 
 ### The Positive Internet Company
 
@@ -162,7 +162,7 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 * **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is a French company, with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
 * **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
 
-## Proxied Services
+## Проксируемые сервисы
 
 Again, this is by no means an exhaustive list; there are thousands of commercial services which offer variants of proxy and CDN tools which can help defend against DDoS attacks.  This list focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.
 
