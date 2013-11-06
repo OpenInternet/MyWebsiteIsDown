@@ -157,10 +157,10 @@
 
 ### Другие организации, предоставляющие безопасный хостинг:
 
-* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
-* **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below).  EcoDissident is a service of [Webarchitects](http://www.webarchitects.coop/), a sustainable coöperative social enterprise.
-* **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is a French company, with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
-* **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
+* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost - это нидерландское [социальное предприятие](http://social-enterprise.nl/social-enterprises/greenhost/), созданное с целью предоставления устойчивых и экологичных услуг в сфере хостинга веб-сайтов. Greenhost стремится продвигать открытый и свободный Интернет и защищать своих пользователей.
+* **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident стремится обеспечивать сильную защиту свободы слова; возможно, вы захотите комбинировать хостинг от EcoDissident с проксируемым сервисом, описанным ниже).  Сервис EcoDissident предоставляется устойчивым объединённым социальным предприятием [Webarchitects](http://www.webarchitects.coop/).
+* **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/). Gandi - это французская компания с офисами в Балтиморе (США) и Ванкувере (Канада), она поддерживает множество популярных инструментов и проектов для сообщества.
+* **Множество других!** Существует множество других организаций, которые ориентированы на продвижение свободного Интернета и помогут вам разными методами восстановить сайт после DDoS атаки. Если вы предоставляете или знаете о сервисе, который мог бы пополнить этот список, пожалуйста, внесите свой вклад.
 
 ## Проксируемые сервисы
 
@@ -208,7 +208,7 @@ DDoS attacks also impact many other services around your website - the service t
 * 1984.is [https://www.1984.is/](https://www.1984.is/)
 * Hover.com [https://www.hover.com/](https://www.hover.com/)
 
-# Glossary
+# Глоссарий
 
 * **CDN / Content Delivery Network:** A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
 * **DDoS / Distributed Denial of Service Attack:**  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
