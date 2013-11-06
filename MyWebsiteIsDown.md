@@ -197,11 +197,11 @@
 
 ### Другие проксируемые сервисы
 
-There are many other organizations who offer tools to help protect sites from DDoS attacks. If you are or know of a service which focuses on protecting free speech against DDoS and should be listed here, please contribute.
+Есть огромное количество других организаций, которые предоставляют инструменты для защиты сайтов от DDoS атак. Если вы предоставляете или знаете о сервисе, который мог бы пополнить этот список, пожалуйста, внесите свой вклад.
 
 ## Похожие сервисы: регистрация доменных имён
 
-DDoS attacks also impact many other services around your website - the service that directs visitors to the right webserver (DNS servers or name servers) may also be attacked or impacted.  While the services you engage below will support you in chosing/moving DNS providers, here is a short list of well-regarded services.  EasyDNS and Hover.com are based in Canada, 1984.is, Iceland.
+DDoS атаки также влияют на многие другие сервисы, которыми "пользуется" ваш веб-сайт - сервис которые перенаправляет посетителей на нужный веб-сервер (DNS-серверы или name server) также могут подвергаться атаке или воздействию. И хотя сервисы, которые вы используете, помогут вам выбрать/сменить DNS провайдера, ниже приведен краткий список достойных сервисов. EasyDNS и Hover.com расположены в Канаде, 1984.is - в Исландии.
 
 * EasyDNS [https://web.easydns.com/](https://web.easydns.com/)
 * 1984.is [https://www.1984.is/](https://www.1984.is/)
