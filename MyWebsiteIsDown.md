@@ -177,24 +177,23 @@
 
 ### CloudFlare
 
-* **Cost:** Free for basic protection, $20/month to include SSL support, and up to $200/month for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
-* **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
-* **About the organization and its business model:** Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
-It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
-Cloudflare is required to comply with US legal requests and National Security Letters.
-* **Technical needs:** You will need the ability to change your nameservers.
-* **Get Started Now:**  Create an account here: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
+* **Стоимость:** Бесплатная базовая защита, $20/месяц для подключения поддержки SSL, и до $200/месяц для соответствия более высоким требованиям. Клиенты платных версий пользуются приоритетом при обращении в службу технической поддержки и получают более высокую гарантию на время работы сайта.
+* ** Ограничения:** Предмет экспортного контроля Соединенных Штатов Америки, для получения более подробной информации см.[https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
+* **Об организации и её бизнес модели:** Cloudflare - это частная компания, зарегистрированная в Дэлавере (США), расположенная в Сан Франциско. Они поддерживают работу серверов по всему миру ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) и подчиняются юридическим запросам.
+Следует отметить, что часть реализованной в CloudFlare защиты от DDoS  атак периодически ухудшает доступ к сайту через сеть Tor. Это происходит, когда отдельные индивидуумы используют сеть Tor для проведения атак на какой-либо сервис, и **не** является намеренным решением блокировать Tor. Для более подробной информации о правилах CloudFlare, относящихся к свободе слова, см. [этот пост в блоге](http://blog.cloudflare.com/cloudflare-and-free-speech). Компания Cloudflare обязана отвечать на юридические запросы властей США, в том числе на письма от службы безопасности.
+* **Технические требования:** Вам необходимо иметь право редактирования полей Nameservers.
+* **Начните сейчас:** Создайте учетную запись здесь: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
 
 ### Google’s Project Shield / PageSpeed
 
-* **Cost:** PageSpeed is free during trial period; Project Shield is "currently offered free of charge to trusted testers." For both, there will be a 30-day notice before it changes to a fee-based model.
-* **Restrictions:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.  Project Shield is currently invite only, and is "accepting applications from websites serving news, human rights or elections-related content."
-* **About the organization and its business model:** Google is an international, public, for-profit company based in Mountain View, California, USA.
+* **Стоимость:** PageSpeed is free during trial period; Project Shield is "currently offered free of charge to trusted testers." For both, there will be a 30-day notice before it changes to a fee-based model.
+* **Ограничения:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.  Project Shield is currently invite only, and is "accepting applications from websites serving news, human rights or elections-related content."
+* **Об организации и её бизнес модели:** Google is an international, public, for-profit company based in Mountain View, California, USA.
 As with most Google products, this ties the Google account you use to your website. This service falls under Google’s overall privacy policy and terms of service.  
 Google is required to comply with US legal requests and National Security Letters.
-* **Technical needs:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
-* **Get Started Now with Pagespeed:** Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
-* **Get Started Now with Project Shield:** Request access here:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) . Note that Project Shield is currently invite only and providing access on a rolling basis.  After you sign up, you will "be notified via email if your site is selected to become a 'trusted tester'."
+* **Технические требования:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
+* **Начните использовать Pagespeed сейчас:** Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
+* **Начните использовать Project Shield сейчас:** Request access here:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) . Note that Project Shield is currently invite only and providing access on a rolling basis.  After you sign up, you will "be notified via email if your site is selected to become a 'trusted tester'."
 
 ### More Proxy Services
 
