@@ -186,20 +186,20 @@
 
 ### Google’s Project Shield / PageSpeed
 
-* **Стоимость:** PageSpeed is free during trial period; Project Shield is "currently offered free of charge to trusted testers." For both, there will be a 30-day notice before it changes to a fee-based model.
-* **Ограничения:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.  Project Shield is currently invite only, and is "accepting applications from websites serving news, human rights or elections-related content."
-* **Об организации и её бизнес модели:** Google is an international, public, for-profit company based in Mountain View, California, USA.
-As with most Google products, this ties the Google account you use to your website. This service falls under Google’s overall privacy policy and terms of service.  
-Google is required to comply with US legal requests and National Security Letters.
-* **Технические требования:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
-* **Начните использовать Pagespeed сейчас:** Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
-* **Начните использовать Project Shield сейчас:** Request access here:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) . Note that Project Shield is currently invite only and providing access on a rolling basis.  After you sign up, you will "be notified via email if your site is selected to become a 'trusted tester'."
+* **Стоимость:** Сервис PageSpeed бесплатен на время пробного периода; Сервис Project Shield "в настоящее время бесплатен для доверенных тестировщиков." В обоих случаях вы получите уведомление за 30 дней до перехода в платный период.
+* **Ограничения:** Вас должны утвердить. Как правило, этот процесс занимает около 2-х часов, но есть ограничения для некоторых организаций или стран. Сервис Project Shield в настоящее время доступен только по приглашению, и "принимает заявки только от веб-сайтов, содержащих новостной, правозащитный или относящийся к выборам контент."
+* **Об организации и её бизнес модели:** Google - это международная, акционерная, коммерческая компания, расположенная в Маунтин Вью, Калифорния (США).
+Как и в случае с большинстом других продуктов от Google требуется привязка вашей учетной записи на Google к вашему веб-сайту. Этот сервис подпадает под общие правила конфиденциальности Google и правила пользования услугами компании.  
+Компания Google обязана отвечать на юридические запросы властей США, в том числе на письма от службы безопасности.
+* **Технические требования:** Вы должны иметь право менять свои DNS настройки. Сервис PageSpeed переписывает и оптимизирует некоторые части вашего веб-сайта, что может повлиять на его функциональность; вам нужно будет потестировать сайт на чувствительность к этим изменениям.
+* **Начните использовать Pagespeed сейчас:** Начните процесс регистрации здесь: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
+* **Начните использовать Project Shield сейчас:** Отправьте запрос на доступ здесь:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/). Имейте в виду, что Сервис Project Shield в настоящее время доступен только по приглашению и предоставляет доступ на постоянной основе. После регистрации, вы "получите уведомление по эл. почте о том, был ли ваш сайт выбран в качестве доверенного тестировщика."
 
-### More Proxy Services
+### Другие проксируемые сервисы
 
 There are many other organizations who offer tools to help protect sites from DDoS attacks. If you are or know of a service which focuses on protecting free speech against DDoS and should be listed here, please contribute.
 
-## Related Services: Domain Name Registration
+## Похожие сервисы: регистрация доменных имён
 
 DDoS attacks also impact many other services around your website - the service that directs visitors to the right webserver (DNS servers or name servers) may also be attacked or impacted.  While the services you engage below will support you in chosing/moving DNS providers, here is a short list of well-regarded services.  EasyDNS and Hover.com are based in Canada, 1984.is, Iceland.
 
