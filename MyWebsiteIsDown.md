@@ -148,14 +148,14 @@
 
 ### The Positive Internet Company
 
-* **Cost:** Pricing starts at $495/month for fully managed servers. Shared hosting may be available for only £125/year.
-* **Restrictions:** None
-* **About the organization and its business model:** The Positive Internet Company is a for-profit company with offices in the UK and the US.
-* **Additional Services:** Services are fully managed, including firewalls, databases, and backups. More information available here: [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)
-* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. The Positive Internet Company provides technical assistance with onboarding and hosting.
-* **Get Started Now:** Visit [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
+* **Стоимость:** Цены от $495/месяц за полностью обслуживаемые серверы. Совместный хостинг может быть доступен всего за £125/год.
+* **Ограничения:** Отсутствуют
+* **Об организации и её бизнес модели:** The Positive Internet Company это коммерческая компания с офисами в Великобритании и США.
+* **Дополнительные услуги:** Полное обслуживание, включая брандмауэр, базы данных и запись резервных копий. Более подробную информацию можно найти здесь: [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)
+* **Технические требования:** Вам понадобится иметь полный доступ к back-end версии сайта или резервным копиям вашего веб-сайта, а также право редактировать поля Nameservers. The Positive Internet Company предоставит вам необходимую техническую поддержку касательно перехода на новый хостинг или его работы.
+* **Начните сейчас:** Посетите [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) или отправьте эл. письмо на адрес good@positive-internet.com
 
-### More Secure Hosting Organizations:
+### Другие организации, предоставляющие безопасный хостинг:
 
 * **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
 * **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below).  EcoDissident is a service of [Webarchitects](http://www.webarchitects.coop/), a sustainable coöperative social enterprise.
