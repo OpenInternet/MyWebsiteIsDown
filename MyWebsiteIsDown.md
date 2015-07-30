@@ -73,7 +73,7 @@ Hosted services require you to move your website completely to their servers - y
 
 ## Proxied Services
 
-Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.  One challenge with proxied services is that very complex websites can sometimes experience problems with non-admin user logins and complex interactive/javascript area.  Please discuss these with your webmaster and the proxy service as most can be resolved.
+Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.
 
 ### Pros:
 
