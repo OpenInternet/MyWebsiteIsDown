@@ -161,9 +161,9 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 * **Cost:** Free
 * **Restrictions:** NGOs, human rights, independent media
 * **About the organization and its business model:** Deflect is an open source project of eQualit.ie, a not-for-profit technology collective based in Montreal, Canada with deep roots in the human rights technology community.  Deflect is funded by NGOs and governments, including the US government, to provide Deflect services to protect the freedom of speech.  Deflect does not disclose the websites they protect nor need approval to provide service.  Deflect maintains servers with like-minded hosting companies around the world.
-* **Additional Services:** The Deflect team will support you getting on to their services.  They have some grant funding available to pay for additional SSL Certificates and other related protection/recovery costs.  Sites protected by Deflect can opt to add additional layers of security to their core site.
-* **Technical needs:** You will need the ability to change your nameservers.
-* **Get Started Now:** [https://wiki.deflect.ca/signup/](https://wiki.deflect.ca/signup/).  See also [https://wiki.deflect.ca/wiki/Join_Deflect](https://wiki.deflect.ca/wiki/Join_Deflect)
+* **Additional Services:** The Deflect team will support you getting on to their services. Deflect also offers free hosting to qualifying organizations. Sites protected by Deflect can opt to add additional layers of security to their core site.
+* **Technical needs:** You will need the ability to [change your nameservers][nameserver change].
+* **Get Started Now:** [https://dashboard.deflect.ca/signup](https://dashboard.deflect.ca/signup).  See also [https://wiki.deflect.ca/wiki/Deflect/Walkthrough](https://wiki.deflect.ca/wiki/Deflect/Walkthrough)
 
 ### CloudFlare
 
@@ -198,13 +198,17 @@ DDoS attacks also impact many other services around your website - the service t
 * 1984.is [https://www.1984.is/](https://www.1984.is/)
 * Hover.com [https://www.hover.com/](https://www.hover.com/)
 
+# 
+
+[nameserver change]: You will need to use the site where you registered your domain name (e.g. Register.com, NetworkSolutions.com, etc.) and change your **nameservers* to different values.
+[DNS Record change]:
 # Glossary
 
 * **CDN / Content Delivery Network:** A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
 * **DDoS / Distributed Denial of Service Attack:**  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
-* **DNS Record:** The DNS record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider’s address or a proxy for your original website.
+* **DNS Record:** The DNS record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider's address or a proxy for your original website.
 * **Domain Name:** The human-readable name of your website - google.com, for example.
-* **Nameserver:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it’s Internet address / IP Address (74.125.228.69) via it’s DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
+* **Nameserver:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it's Internet address / IP Address (74.125.228.69) via it's DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
 * **SSL:** Also referred to as HTTPS, a secure way (from the browser to the website) to interact with a website. See also [Wikipedia](https://en.wikipedia.org/wiki/Secure_Sockets_Layer#Description)
 * **Website host:** The server where your website and its files/databases are stored.
 
