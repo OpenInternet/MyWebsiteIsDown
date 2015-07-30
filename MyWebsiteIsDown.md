@@ -157,15 +157,21 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 * **Technical needs:** You will need the ability to [change your nameservers][nameserver change].
 * **Get Started Now:** [https://dashboard.deflect.ca/signup](https://dashboard.deflect.ca/signup).  See also [https://wiki.deflect.ca/wiki/Deflect/Walkthrough](https://wiki.deflect.ca/wiki/Deflect/Walkthrough)
 
-### CloudFlare
+### CloudFlare (Commercial)
 
-* **Cost:** Free for basic protection, $20/month to include SSL support, and up to $200/month for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
-* **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
+* **Cost:** Free for basic protection, up to $200/month and beyond for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
+* **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse). 
 * **About the organization and its business model:** Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
 It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
 Cloudflare is required to comply with US legal requests and National Security Letters.
 * **Technical needs:** You will need the ability to change your nameservers.
 * **Get Started Now:**  Create an account here: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
+
+### CloudFlare (Project Galileo)
+
+* **Cost:** Free
+* **Restrictions:** [Project Galileo](https://www.cloudflare.com/galileo) is intended to be used through referrals of trusted NGOs for not-for-profit organizations and small commercial entities acting in the public interest, which are engaged in news gathering, civil society, or political/artistic speech, and the subject of online attacks based on this work.
+* **Get Started Now:**  Organizations can apply at [https://www.cloudflare.com/galileo](https://www.cloudflare.com/galileo), and find a list of public organizations who can refer customers (recommended)
 
 ### Google’s Project Shield / PageSpeed
 
