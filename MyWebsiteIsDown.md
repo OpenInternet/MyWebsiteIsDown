@@ -86,7 +86,7 @@ Proxied services let you continue hosting your site wherever it is, and just cha
 
 * Fewer support options
 * Focused primarily on just mitigating DDoS attacks - does not necessarily include help with malware or spammers.
-* SSL (encrypted) traffic will be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.
+* SSL (encrypted) traffic may be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.
 
 ## Custom Options
 
@@ -98,36 +98,20 @@ Another option to investigate is to "mirror" your content across multiple differ
 
 ## Before you choose
 
-Finally, for any service, you must be comfortable with the provider - that means trust, but also understanding their business model:  Is it fee-for-service?  If there’s a free version, does it receive less support than a paid alternative?  Is it funded by governments?   It is best to cover as much detail up front as possible to avoid surprises down the road.
+Below are some questions for further consideration.
 
-### For all services:
-
-* How is the company/organization structured and sustained?  What types of vetting or reporting are the required to do, if any?
-* Consider what country/countries they have a legal presence in and would be required to comply with law enforcement and other legal requests
+* Does their business and cost model meet your needs?  Is it fee-for-service?  If there’s a free version, does it receive less support than a paid alternative?  Is it funded by governments?
+* Do they accept a form of payment you can use? Can you afford their service?
+* What type of ongoing support will you have access to?  Is there an additional cost for support, and/or will you receive sufficient support if you are using a "free" tier?
+* How is the company/organization structured and sustained?  What types of reporting are the required to do, if any?
 * What logs are created, and for how long are they available?
+* Consider what country/countries they have a legal presence in and would be required to comply with law enforcement and other legal requests
 * Are there restrictions that impact you on what content the service will host/proxy?
 * Are there restrictions on the countries where they can provide service?
-* Do they accept a form of payment you can use? Can you afford their service?
 * Secure communications -- you should be able to log in securely and communicate with the service provider privately.
 * Is there an option for two-factor authentication, to improve the security of administrator access?  This or related secure access policies can help reduce the threat of other forms of attacks against your website.
-* What type of ongoing support will you have access to?  Is there an additional cost for support, and/or will you receive sufficient support if you are using a "free" tier?
-* Can you "test-drive" your website before you move over via a staging site?
-
-### For hosted services
-
-* Do they offer full support on moving your site over?
-* Are the services equal or better options than your current host, at least for tools/services you use?  Top things to check are:
-    * Management dashboards like cPanel
-    * Email accounts (how many, quotas, access via SMTP, IMAP)
-    * Databases (how many, types, access)
-    * Remote access via SFTP/SSH
-    * Support for the programming language (PHP, Perl, Ruby, cgi-bin access...) or CMS (Drupal, Joomla, Wordpress…) your site uses
-
-### For proxied services:
-
-* If you use SSL  (also known as HTTPS or secure web traffic), ask how they manage SSL.  In some configurations, it may be easiest to share your private SSL key.  If you do so, you need to have a high level of trust in the service provider, as they can "impersonate" your site (indeed, this is what you are asking them to do by providing a proxy!)
-* Ask about how administration / editorial logins and pages are managed
-* Talk about any interactive parts of your website (users who log in, comment, admin/editorial needs, complex interactive pages/javascript/animations) -- different proxy services manage these differently; you will need to test these before switching completely.
+* Can you "test-drive" your website before you move over? Is there support in migrating your site to this service?
+* If you use SSL (also known as HTTPS or secure web traffic), ask how they manage SSL.
 
 # Mitigation Services
 
@@ -155,9 +139,15 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 * **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. The Positive Internet Company provides technical assistance with onboarding and hosting.
 * **Get Started Now:** Visit [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
 
+### Greenhost
+* **Cost:** Pricing for small sites starts at €4.50/month up to € 133/month for premium hosting
+* **Restrictions:** Minimal, review Article 5 of the [https://greenhost.net/about-us/terms-and-conditions/](Terms and Conditions)
+* **About the organization and its business model:** Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
+* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers.
+* **Get Started Now:** [https://greenhost.nl/order/](https://greenhost.nl/order/)
+
 ### More Secure Hosting Organizations:
 
-* **Greenhost:** [https://greenhost.nl/order/](https://greenhost.nl/order/) Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
 * **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below).  EcoDissident is a service of [Webarchitects](http://www.webarchitects.coop/), a sustainable coöperative social enterprise.
 * **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is a French company, with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
 * **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
