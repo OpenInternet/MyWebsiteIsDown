@@ -121,23 +121,14 @@ All of the services listed below provide protection against DDoS attacks.  This 
 
 This by no means is an exhaustive list.  It focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.  Please note that prices for hosted services are not directly comparable to those of proxy services.  Hosted services will take the place of any existing cost for website hosting.
 
-### VirtualRoad.org
+### VirtualRoad.org (Qurium)
 
-* **Cost:** Pricing starts at €100/month for simple sites.  Other tiers for more complex hosting needs or higher resource demands are available.
-* **Restrictions:** None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar)
+* **Cost:** Pricing starts at €60/month for simple sites, with a €300 setup and migration fee.  Other tiers for more complex hosting needs or higher resource demands are available.
+* **Restrictions:** None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar). See [https://www.qurium.org/values/](https://www.qurium.org/values/)
 * **About the organization and its business model:** VirtualRoad.org is part of Media Frontiers, a social purpose enterprise registered in Denmark as an ApS / limited liability company, established by the press freedom NGO, International Media Support (IMS).  IMS is funded largely by the governments of Denmark, Sweden, and Norway.  This organizational structure is meant to build long-term sustainable services for the community.
 * **Additional Services:** VirtualRoad.org offers full-range protection encompassing a wide variety of services, from transferring your site to their systems, domain registration, optimization, security audits, protection from hacking and phishing, security reports detailing attempted attacks, and even support in responding to legal requests.  See [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages) for more details.
 * **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
 * **Get Started Now:** Visit [https://virtualroad.org/contact](https://virtualroad.org/contact) or email [info@virtualroad.org](mailto:info@virtualroad.org) 
-
-### The Positive Internet Company
-
-* **Cost:** Pricing starts at $495/month for fully managed servers. Shared hosting may be available for only £125/year.
-* **Restrictions:** None
-* **About the organization and its business model:** The Positive Internet Company is a for-profit company with offices in the UK and the US.
-* **Additional Services:** Services are fully managed, including firewalls, databases, and backups. More information available here: [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)
-* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. The Positive Internet Company provides technical assistance with onboarding and hosting.
-* **Get Started Now:** Visit [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
 
 ### Greenhost
 * **Cost:** Pricing for small sites starts at €4.50/month up to € 133/month for premium hosting
@@ -150,6 +141,7 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 
 * **Ecological and Dissident Hosting:** [https://ecodissident.net/hosting](https://ecodissident.net/hosting) EcoDissident focuses on providing strong protection for free speech; you may want to pair hosting here with a proxied service, below).  EcoDissident is a service of [Webarchitects](http://www.webarchitects.coop/), a sustainable coöperative social enterprise.
 * **Gandi.net** [https://www.gandi.net/](https://www.gandi.net/) .  Gandi is a French company, with offices in Baltimore (USA) and Vancouver (Canada), and supports many popular community tools and projects.
+* **The Positive Internet Company** [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)  The Positive Internet Company is a for-profit company with offices in the UK and the US, offering fully managed website hosting, including firewalls, databases, and backups. Pricing starts at $495/month for fully managed servers. Shared hosting may be available for only £125/year. The Positive Internet Company provides technical assistance with onboarding and hosting. Get started at [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
 * **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
 
 ## Proxied Services
