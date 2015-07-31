@@ -4,15 +4,20 @@ A threat that many independent journalists, news sites, and bloggers face is hav
 
 This document will walk you through some very basic steps to diagnose potential problems.  If your site is under a denial of service attack, some immediate options for next steps are suggested.
 
+ * [Preparation](#be-prepared)
  * [First Steps](#first-steps-diagnosing-other-potential-problems)
- * [Next Steps](#next-steps)
+ 	* [Diagnosing website downtime](#checklist)
  * [Responding to a Denial of Service Attack](#responding-to-a-denial-of-service-attack)
- * [Before you choose a service](#before-you-choose)
+ 	* [Types of DDoS Mitigation Servivces](#types-of-DDoS-mitigation-services)
+ 	* [Choosing a mitigation service](#before-you-choose)
  * [DDoS Mitigation Services](#mitigation-services)
+ 	* [Comparison Chart](#Comparison-Chart)
+ 	* [Hosted Services](#Hosted-Services)
+ 	* [Proxy Services](#Proxy-Services)
 
 *All technical terms are further defined in the [glossary](#glossary) at the end of this guide.*
 
-## Don't wait - prepare now!
+## Be Prepared
 
 **Even if you have not experienced a denial of service attack, this guide offers steps to prepare for one -- hopefully preventing any downtime at all**.  Go straight to the [Responding to a Denial of Service Attack](#responding-to-a-denial-of-service-attack) to investigate common solutions you can implement now, before being attacked.
 
@@ -41,7 +46,7 @@ After investigating these common challenges below, **Contact your webmaster and 
 5. **Can you visit other sites with content like your site?**  Try visiting websites related to yours or covering similar issues.  Also try using Tor ([https://www.torproject.org/projects/gettor.html](https://www.torproject.org/projects/gettor.html))  or Psiphon ([https://psiphon.ca/products.php](https://psiphon.ca/products.php)) to access your site.  If this helps, you have a ***blocking problem*** -- you are still online for other parts of the world, but are being censored in your own country.
 6. **Is your site loading intermittently, or unusually slowly?** Your site may be overwhelmed by the number and speed of requests for pages it is receiving -- this is a ***performance problem***.  This could be "good" in that your site has become more popular and it simply needs some improvements to respond to more readers - check your site analytics for a long-term pattern in growth.  Contact your webmaster or hosting provider for guidance.  Many popular blogging and CMS platforms (Joomla, Wordpress, Drupal...) have plugins to help cache your website locally and integrate CDNs, which can dramatically improve site performance and resilience. Many of the solutions below can also help performance problems as well.
 
-# Next Steps
+## Next Steps
 
 If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one "attacker" trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
@@ -53,9 +58,11 @@ This [video from Google's Project Shield](https://www.youtube.com/watch?v=wmTvv8
 
 **Don't wait until you have been attacked!**  All of the services listed below will work quickly to help you recover during or after an attack, but you can get protected now, before any attack happens!  This can reduce costs by lowering your bandwidth usage, and keep you online during an attack.  Once you've been hit, it can take up to three days for the Internet to "find" you at your new, protected address - so in almost every case, it's much better to **be prepared and get started now**.  The first step is to work with the company you bought your domain from, and change the “Time to Live” or TTL to 1 hour.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
 
+## Types of DDoS Mitigation Services
+
 There are many services that can help you with denial of service attacks; and they fall (very broadly) into two categories - **hosted** and **proxied** services.
 
-## Hosted Services
+### Hosted Services
 
 Hosted services require you to move your website completely to their servers - you're changing hosting providers.  Many of them can help you through this.  The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website. Hosted services may also use a mixture of the same technology as *proxied services* below.
 
@@ -66,9 +73,9 @@ Hosted services require you to move your website completely to their servers - y
 | Often includes many secondary services and consulting, and even limited legal defense in some cases | You must trust the service to manage your site and defend your rights |
 | Full support teams often on staff to help | These services often are much more expensive (but you don't have to pay other hosting / DNS services anymore!) |
 
-## Proxied Services
+### Proxy Services
 
-Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.
+Proxy services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.
 
 | Pros | Cons |
 |------|------|
@@ -77,9 +84,7 @@ Proxied services let you continue hosting your site wherever it is, and just cha
 | You don't have to change your existing website host | SSL (encrypted) traffic may be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.| 
 | You can change or quit the service at any time | |
 
-
-
-## Custom Options
+### Custom Options
 
 It's important to note that there are many ways to combine these approaches.  Many websites use what is called a Content Delivery Network (CDN), which takes some of the burden (serving images and other static content) off of a website and speeds it up greatly.  Dynamic sites (such as those powered by content management systems like Joomla, Wordpress and Drupal), can sometimes be "converted" into static sites that can be fully hosted (mirrored) using CDNs. 
 
@@ -110,7 +115,7 @@ Below are some questions for further consideration:
 
 All of the services listed below provide protection against DDoS attacks.  This is not a complete listing of services - there are many, many more.  These services all represent good starting points, as they have been used by other members in the independent media / human rights / free speech communities.
 
-## Quick Comparison
+## Comparison Chart
 
 | Provider | Cost | Limitations and Requirements | Setup Requirements | Service Type |
 |----------|------|------------------------------|--------------------|--------------|
@@ -149,7 +154,7 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 * **The Positive Internet Company** [http://www.positive-internet.com/services/vip-hosting](http://www.positive-internet.com/services/vip-hosting)  The Positive Internet Company is a for-profit company with offices in the UK and the US, offering fully managed website hosting, including firewalls, databases, and backups. Pricing starts at $495/month for fully managed servers. Shared hosting may be available for only £125/year. The Positive Internet Company provides technical assistance with onboarding and hosting. Get started at [http://www.positive-internet.com/contact-us](http://www.positive-internet.com/contact-us) or email good@positive-internet.com
 * **Many others!** There are many other organizations who are aligned with promoting Internet freedom and can help you recover from a DDoS in various ways. If you are or know of a service which should be listed here, please contribute.
 
-## Proxied Services
+## Proxy Services
 
 Again, this is by no means an exhaustive list; there are thousands of commercial services which offer variants of proxy and CDN tools which can help defend against DDoS attacks.  This list focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.
 
