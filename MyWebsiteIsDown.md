@@ -197,10 +197,17 @@ DDoS attacks also impact many other services around your website - the service t
 
 # Glossary
 
-* **[CDN]:** A "Content Delivery Network" is a worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
-* **[DDoS]:**  a "Distributed Denial of Service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one “attacker” trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
-* **[DNS Record]:** The DNS (Domain Name System) record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider's address or a proxy for your original website.
-* **[Domain Name]:** The human-readable name of your website - google.com, for example.
-* **[Nameserver]:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it's Internet address / IP Address (74.125.228.69) via it's DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
-* **[SSL]:** "Secure Sockets Layer" - more accurately now, TLS, or "Transport Layer Security" -- The technology behind HTTPS, a secure way (from the browser to the website) to interact with a website. See also [Wikipedia](https://en.wikipedia.org/wiki/Secure_Sockets_Layer#Description)
-* **[Website host]:** The server where your website and its files/databases are stored.
+[CDN]: A "Content Delivery Network" is a worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
+
+[DDoS]: a "Distributed Denial of Service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one “attacker” trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
+
+[DNS Record]: The DNS (Domain Name System) record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider's address or a proxy for your original website.
+
+
+[Domain Name]: The human-readable name of your website - google.com, for example.
+
+[Nameserver]: When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it's Internet address / IP Address (74.125.228.69) via it's DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
+
+[SSL]: "Secure Sockets Layer" - more accurately now, TLS, or "Transport Layer Security" -- The technology behind HTTPS, a secure way (from the browser to the website) to interact with a website. See also [Wikipedia](https://en.wikipedia.org/wiki/Secure_Sockets_Layer#Description)
+
+[Website host]: The server where your website and its files/databases are stored.
