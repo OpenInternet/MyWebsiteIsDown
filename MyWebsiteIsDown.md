@@ -20,6 +20,12 @@ If you are currently researching how to build your website to be resistant to at
 
 AccessNow provides an in-depth guide with many more resources and mitigation techniques in English, Farsi, Arabic, and Russian.  Visit [https://www.accessnow.org/policy/docs](https://www.accessnow.org/policy/docs) and click on DoS on the right side, or download a copy from [https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf](https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf)  .
 
+### Tips
+
+* **Backups** In addition to the services and suggestions below, it's always good to make sure you have backups, and a process to create additional, offline copies.
+* **Keep up to date** If you are using a Content Management System (CMS) such as WordPress, Joomla, or Drupal, keep up to date with the latest security updates.
+* **Monitoring** This article lists [10 popular monitoring services](http://mashable.com/2010/04/09/free-uptime-monitoring/) that constantly check your site and email or text you if it goes down. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
+
 # First Steps: Diagnosing other potential problems
 
 Sites most often go down due to programming errors or technical problems at the company that hosts the site.  Sometimes, other things like legal challenges can cause a host to turn a site off as well.  Let's first try to check for these common problems.  When possible, the best first step is to contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them, and the company that hosts your site).  
@@ -34,12 +40,6 @@ After investigating these common challenges below, **Contact your webmaster and 
 4. **Is your web host working, but your is unavailable?**  Check [http://www.isup.me/](http://www.isup.me/) - your site might be up, but you can't see it.  This is a ***network problem***. Your own Internet connection could be having problems or be blocking your access to your site.
 5. **Can you visit other sites with content like your site?**  Try visiting websites related to yours or covering similar issues.  Also try using Tor ([https://www.torproject.org/projects/gettor.html](https://www.torproject.org/projects/gettor.html))  or Psiphon ([https://psiphon.ca/products.php](https://psiphon.ca/products.php)) to access your site.  If this helps, you have a ***blocking problem*** -- you are still online for other parts of the world, but are being censored in your own country.
 6. **Is your site loading intermittently, or unusually slowly?** Your site may be overwhelmed by the number and speed of requests for pages it is receiving -- this is a ***performance problem***.  This could be "good" in that your site has become more popular and it simply needs some improvements to respond to more readers - check your site analytics for a long-term pattern in growth.  Contact your webmaster or hosting provider for guidance.  Many popular blogging and CMS platforms (Joomla, Wordpress, Drupal...) have plugins to help cache your website locally and integrate CDNs, which can dramatically improve site performance and resilience. Many of the solutions below can also help performance problems as well.
-
-### Tips
-
-* **Backups** In addition to the services and suggestions below, it's always good to make sure you have backups (that you store somewhere other than the same place your website is!) - many hosts and website platforms have this included; but it's best to also have additional, offline copies.
-* **Keep up to date** If you are using a Content Management System (CMS) such as WordPress or Drupal, check to make sure that your website technology is updated to the latest software, especially if there have been security updates.
-* **Monitoring** There are many services that can constantly check on your site and email or text you if it goes down. [This Mashable article](http://mashable.com/2010/04/09/free-uptime-monitoring/) lists 10 popular ones. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
 
 # Next Steps
 
