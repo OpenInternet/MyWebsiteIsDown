@@ -18,7 +18,7 @@ This document will walk you through some very basic steps to diagnose potential 
 
 If you are currently researching how to build your website to be resistant to attacks that might take it offline, you should first read through this guide by the Electronic Frontier Foundation: [https://www.eff.org/keeping-your-site-alive](https://www.eff.org/keeping-your-site-alive) .
 
-AccessNow provides a much more in-depth guide with many more resources and mitigation techniques in English, Farsi, Arabic, and Russian.  Visit [https://www.accessnow.org/policy/docs](https://www.accessnow.org/policy/docs) and click on DoS on the right side, or download a copy from [https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf](https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf)  .
+AccessNow provides an in-depth guide with many more resources and mitigation techniques in English, Farsi, Arabic, and Russian.  Visit [https://www.accessnow.org/policy/docs](https://www.accessnow.org/policy/docs) and click on DoS on the right side, or download a copy from [https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf](https://s3.amazonaws.com/access.3cdn.net/3fd9faf32feb878cf7_krm6iy7bo.pdf)  .
 
 # First Steps: Diagnosing other potential problems
 
@@ -43,7 +43,7 @@ After investigating these common challenges below, **Contact your webmaster and 
 
 # Next Steps
 
-If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one “attacker” trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
+If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one "attacker" trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
 *Imagine hundreds of people in line at a food stall who, when they get to the front of the line, slowly decide not to order anything, but then immediately get back in line.  There may be legitimate customers in line, but it's going to take them hours to get their food, and the vendor may give up!*
 
@@ -59,34 +59,25 @@ There are many services that can help you with denial of service attacks; and th
 
 Hosted services require you to move your website completely to their servers - you're changing hosting providers.  Many of them can help you through this.  The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website. Hosted services may also use a mixture of the same technology as *proxied services* below.
 
-### Pros:
 
-* Provides one central service for most, if not all, your website needs
-* Often includes many secondary services and consulting, and even limited legal defense in some cases
-* Full support teams often on staff to help
-
-### Cons:
-
-* You must host your website with the service
-* You must trust the service to manage your site and defend your rights
-* These services often are much more expensive (but you don't have to pay other hosting / DNS services anymore!)
+| Pros | Cons |
+|------|------|
+| Provides one central service for most, if not all, your website needs | You must host your website with the service |
+| Often includes many secondary services and consulting, and even limited legal defense in some cases | You must trust the service to manage your site and defend your rights |
+| Full support teams often on staff to help | These services often are much more expensive (but you don't have to pay other hosting / DNS services anymore!) |
 
 ## Proxied Services
 
 Proxied services let you continue hosting your site wherever it is, and just change how others on the Internet find and access it - this is generally much easier to set up.  These services have servers around the world which essentially get out in front of your website and absorb or ignore malicious traffic.  They "mirror" and serve constantly-updated copies of your site.  These services are very easy to set up, and you maintain complete control of your website and hosting setup.
 
-### Pros:
+| Pros | Cons |
+|------|------|
+| Lower cost (often with a free level) | Fewer support options |
+| Quick and easy to set up | Does not necessarily include help with malware or spammers.|
+| You don't have to change your existing website host | SSL (encrypted) traffic may be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.| 
+| You can change or quit the service at any time | |
 
-* Lower cost (often with a free level)
-* Quick and easy to set up
-* You don't have to change your existing website host
-* You can change or quit the service at any time
 
-### Cons:
-
-* Fewer support options
-* Focused primarily on just mitigating DDoS attacks - does not necessarily include help with malware or spammers.
-* SSL (encrypted) traffic may be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.
 
 ## Custom Options
 
@@ -126,8 +117,8 @@ All of the services listed below provide protection against DDoS attacks.  This 
 | [Google's Project Shield](https://projectshield.withgoogle.com/public/#application-form) | Free | News or independent mediaElections informationHuman rights information | DNS Record Change (A record) | Proxy |
 | [CloudFlare](https://www.cloudflare.com/a/sign-up) | Free option; up to $200/month for premium services | DDOS attack size limitation; feature limitations | Change DNS Server | Proxy |
 | [CF/ Project Galileo](https://cloudflare.com/galileo) | Free | Organizations must be not-for-profit or small commercial entities that act in the public interest and are engaged in news gathering, civil society, or political/artistic speech and the subject of online attacks related to this. Voices inciting violence will not be accepted into Project Galileo | Change DNS Server | Proxy |
-| [VirtualRoad](https://www.qurium.org/contact/) | $60€/mo + 300€ setup | Organizations should represent indepenent media, civil society, human rights groups; see https://www.qurium.org/values/ | Change hosting (migration support included in setup) | Hosting (required) |
-| [Deflect](https://dashboard.deflect.ca/signup) | Free | Organizations must by involved in Human Rights; be a Civil Society Organisation; produce Independent Media; or work with people who do one of these, and have been targeted by DDoS attacks or have reason to fear or anticipate an attack because of the work you do. Organizations must not contravene the principles set out in the UDHR nor promote hate speech or encourage discrimination in your work | Change DNS Records | Proxy (Hosting available) |
+| [VirtualRoad](https://www.qurium.org/contact/) | $60€/mo + 300€ setup | Organizations should represent independent media, civil society, human rights groups; see https://www.qurium.org/values/ | Change hosting (migration support included in setup) | Hosting (required) |
+| [Deflect](https://dashboard.deflect.ca/signup) | Free | Organizations must by involved in Human Rights; be a Civil Society Organization; produce Independent Media; or work with people who do one of these, and have been targeted by DDoS attacks or have reason to fear or anticipate an attack because of the work you do. Organizations must not contravene the principles set out in the UDHR nor promote hate speech or encourage discrimination in your work | Change DNS Records | Proxy (Hosting available) |
 | [GreenHost](https://greenhost.net/order/) | 4.5 € and up | See https://greenhost.net/about-us/terms-and-conditions/ | Change hosting provider | Hosting (required) |
 
 
