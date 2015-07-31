@@ -121,14 +121,14 @@ All of the services listed below provide protection against DDoS attacks.  This 
 
 ## Quick Comparison
 
-| Provider | Cost | Free Option | Limitations and Requirements | Setup Requirements | Service Type |
-|----------|------|-------------|------------------------------|--------------------|--------------|
-| [Google's Project Shield](https://projectshield.withgoogle.com/public/#application-form) | 0 | Yes | News or independent mediaElections informationHuman rights information | DNS Record Change (A record) | Proxy |
-| [CloudFlare](https://www.cloudflare.com/a/sign-up) | $20-200/month for premium services | Yes | DDOS attack size limitation; feature limitations | Change DNS Server | Proxy |
-| [CF/ Project Galileo](https://cloudflare.com/galileo) | 0 | Yes | Organizations must be not-for-profit or small commercial entities that act in the public interest and are engaged in news gathering, civil society, or political/artistic speech and the subject of online attacks related to this. Voices inciting violence will not be accepted into Project Galileo | Change DNS Server | Proxy |
-| [VirtualRoad](https://www.qurium.org/contact/) | $60€/mo + 300€ setup | N | Organizations should represent indepenent media, civil society, human rights groups; see https://www.qurium.org/values/ | Change hosting (migration support included in setup) | Hosting (required) |
-| [Deflect](https://dashboard.deflect.ca/signup) |  | Y | Organizations must by involved in Human Rights; be a Civil Society Organisation; produce Independent Media; or work with people who do one of these, and have been targeted by DDoS attacks or have reason to fear or anticipate an attack because of the work you do. Organizations must not contravene the principles set out in the UDHR nor promote hate speech or encourage discrimination in your work | Change DNS Records | Proxy (Hosting available) |
-| [GreenHost](https://greenhost.net/order/) | 4.5 € and up | N | See https://greenhost.net/about-us/terms-and-conditions/ | Change hosting provider | Hosting (required) |
+| Provider | Cost | Limitations and Requirements | Setup Requirements | Service Type |
+|----------|------|------------------------------|--------------------|--------------|
+| [Google's Project Shield](https://projectshield.withgoogle.com/public/#application-form) | Free | News or independent mediaElections informationHuman rights information | DNS Record Change (A record) | Proxy |
+| [CloudFlare](https://www.cloudflare.com/a/sign-up) | Free option; up to $200/month for premium services | DDOS attack size limitation; feature limitations | Change DNS Server | Proxy |
+| [CF/ Project Galileo](https://cloudflare.com/galileo) | Free | Organizations must be not-for-profit or small commercial entities that act in the public interest and are engaged in news gathering, civil society, or political/artistic speech and the subject of online attacks related to this. Voices inciting violence will not be accepted into Project Galileo | Change DNS Server | Proxy |
+| [VirtualRoad](https://www.qurium.org/contact/) | $60€/mo + 300€ setup | Organizations should represent indepenent media, civil society, human rights groups; see https://www.qurium.org/values/ | Change hosting (migration support included in setup) | Hosting (required) |
+| [Deflect](https://dashboard.deflect.ca/signup) | Free | Organizations must by involved in Human Rights; be a Civil Society Organisation; produce Independent Media; or work with people who do one of these, and have been targeted by DDoS attacks or have reason to fear or anticipate an attack because of the work you do. Organizations must not contravene the principles set out in the UDHR nor promote hate speech or encourage discrimination in your work | Change DNS Records | Proxy (Hosting available) |
+| [GreenHost](https://greenhost.net/order/) | 4.5 € and up | See https://greenhost.net/about-us/terms-and-conditions/ | Change hosting provider | Hosting (required) |
 
 
 ## Hosted Services
