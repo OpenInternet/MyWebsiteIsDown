@@ -119,6 +119,18 @@ Below are some questions for further consideration:
 
 All of the services listed below provide protection against DDoS attacks.  This is not a complete listing of services - there are many, many more.  These services all represent good starting points, as they have been used by other members in the independent media / human rights / free speech communities.
 
+## Quick Comparison
+
+| Provider | Cost | Free Option | Limitations and Requirements | Setup Requirements | Service Type | Signup Page |
+|----------|------|-------------|------------------------------|--------------------|--------------|-------------|
+| Google's Project Shield | 0 | Yes | News or independent mediaElections informationHuman rights information | DNS Record Change (A record) | Proxy | https://projectshield.withgoogle.com/public/#application-form |
+| CloudFlare | $20-200/month for premium services | Yes | DDOS attack size limitation; feature limitations | Change DNS Server | Proxy | https://www.cloudflare.com/a/sign-up |
+| CF/Galileo | 0 | Yes | Organizations must be not-for-profit or small commercial entities that act in the public interest and are engaged in news gathering, civil society, or political/artistic speech and the subject of online attacks related to this. Voices inciting violence will not be accepted into Project Galileo | Change DNS Server | Proxy | cloudflare.com/galileo |
+| VirtualRoad | $60€/mo + 300€ setup | N | Organizations should represent indepenent media, civil society, human rights groups; see https://www.qurium.org/values/ | Change hosting (migration support included in setup) | Hosting (required) | https://www.qurium.org/contact/ |
+| Deflect |  | Y | Organizations must by involved in Human Rights; be a Civil Society Organisation; produce Independent Media; or work with people who do one of these, and have been targeted by DDoS attacks or have reason to fear or anticipate an attack because of the work you do. Organizations must not contravene the principles set out in the UDHR nor promote hate speech or encourage discrimination in your work | Change DNS Records | Proxy (Hosting available) | https://dashboard.deflect.ca/signup |
+| GreenHost | 4.5 € and up | N | See https://greenhost.net/about-us/terms-and-conditions/ | Change hosting provider | Hosting (required) | https://greenhost.net/order/ |
+
+
 ## Hosted Services
 
 This by no means is an exhaustive list.  It focuses on services which can be initiated quickly and have strong track-records on protecting free speech online.  Please note that prices for hosted services are not directly comparable to those of proxy services.  Hosted services will take the place of any existing cost for website hosting.
