@@ -22,7 +22,7 @@ AccessNow provides a much more in-depth guide with many more resources and mitig
 
 # First Steps: Diagnosing other potential problems
 
-Sites most often go down due to programming errors or technical problems at the company that hosts the site.  Sometimes, other things like legal challenges can cause a host to turn a site off as well.  Let’s first try to check for these common problems.  When possible, the best first step is to contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them, and the company that hosts your site).  
+Sites most often go down due to programming errors or technical problems at the company that hosts the site.  Sometimes, other things like legal challenges can cause a host to turn a site off as well.  Let's first try to check for these common problems.  When possible, the best first step is to contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them, and the company that hosts your site).  
 
 After investigating these common challenges below, **Contact your webmaster and the site host!** The problem you face may not be reported on their status page yet, may be a temporary problem, or they may not yet be aware of the problem.  A good relationship with your service providers goes a long way - be clear and polite, and share the results of your investigation using these questions to help them quickly troubleshoot the problem.
 
@@ -31,33 +31,33 @@ After investigating these common challenges below, **Contact your webmaster and 
 1. **Are you seeing error messages?** This could be a ***software problem***, and you should reflect on an recent changes you or your team may have made, and contact your webmaster. Sending your webmaster a screenshot, the link of the page you are having problems with, and any error messages you see will help them figure out what might be the cause of the problem. You might also copy the error messages into a search to see if they are easily fixed.
 2. **Are you seeing a message from your web hosting provider?** You could have been taken offline for legal, copyright, billing, or other reasons.  This is a ***policy problem***, and the resources provided by the EFF, while focused on US copyright laws, are a good place to learn more: [https://www.eff.org/issues/bloggers/legal/liability/IP](https://www.eff.org/issues/bloggers/legal/liability/IP).
 3. **Is your site not loading at all?**  Your hosting company may be having problems, in which case you may be facing a ***hosting problem***.  Can you visit the website of your hosting company?  Note that this is **not** the admin section of your own site, but the company or organization you work with to host your site.  Look or search for a "status" blog (e.g. status.dreamhost.com), and also search on twitter.com for other users discussing downtime at the host - a simple search like “(company name) down” can often reveal if  many others are having the same problem.
-4. **Is your web host working, but your is unavailable?**  Check [http://www.isup.me/](http://www.isup.me/) - your site might be up, but you can’t see it.  This is a ***network problem***. Your own Internet connection could be having problems or be blocking your access to your site.
+4. **Is your web host working, but your is unavailable?**  Check [http://www.isup.me/](http://www.isup.me/) - your site might be up, but you can't see it.  This is a ***network problem***. Your own Internet connection could be having problems or be blocking your access to your site.
 5. **Can you visit other sites with content like your site?**  Try visiting websites related to yours or covering similar issues.  Also try using Tor ([https://www.torproject.org/projects/gettor.html](https://www.torproject.org/projects/gettor.html))  or Psiphon ([https://psiphon.ca/products.php](https://psiphon.ca/products.php)) to access your site.  If this helps, you have a ***blocking problem*** -- you are still online for other parts of the world, but are being censored in your own country.
 6. **Is your site loading intermittently, or unusually slowly?** Your site may be overwhelmed by the number and speed of requests for pages it is receiving -- this is a ***performance problem***.  This could be "good" in that your site has become more popular and it simply needs some improvements to respond to more readers - check your site analytics for a long-term pattern in growth.  Contact your webmaster or hosting provider for guidance.  Many popular blogging and CMS platforms (Joomla, Wordpress, Drupal...) have plugins to help cache your website locally and integrate CDNs, which can dramatically improve site performance and resilience. Many of the solutions below can also help performance problems as well.
 
 ### Tips
 
-* **Backups** In addition to the services and suggestions below, it’s always good to make sure you have backups (that you store somewhere other than the same place your website is!) - many hosts and website platforms have this included; but it’s best to also have additional, offline copies.
+* **Backups** In addition to the services and suggestions below, it's always good to make sure you have backups (that you store somewhere other than the same place your website is!) - many hosts and website platforms have this included; but it's best to also have additional, offline copies.
 * **Keep up to date** If you are using a Content Management System (CMS) such as WordPress or Drupal, check to make sure that your website technology is updated to the latest software, especially if there have been security updates.
 * **Monitoring** There are many services that can constantly check on your site and email or text you if it goes down. [This Mashable article](http://mashable.com/2010/04/09/free-uptime-monitoring/) lists 10 popular ones. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.
 
 # Next Steps
 
-If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
+If the above diagnoses do not help (or you are experiencing a severe ***performance problem***, your site may be the victim of a **"denial of service" attack**, where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one “attacker” trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
 
-*Imagine hundreds of people in line at a food stall who, when they get to the front of the line, slowly decide not to order anything, but then immediately get back in line.  There may be legitimate customers in line, but it’s going to take them hours to get their food, and the vendor may give up!*
+*Imagine hundreds of people in line at a food stall who, when they get to the front of the line, slowly decide not to order anything, but then immediately get back in line.  There may be legitimate customers in line, but it's going to take them hours to get their food, and the vendor may give up!*
 
 This [video from Google's Project Shield](https://www.youtube.com/watch?v=wmTvv8ISwPA) provides a great description of these attacks.
 
 # Responding to a Denial of Service Attack
 
-**Don’t wait until you have been attacked!**  All of the services listed below will work quickly to help you recover during or after an attack, but you can get protected now, before any attack happens!  This can reduce costs by lowering your bandwidth usage, and keep you online during an attack.  Once you’ve been hit, it can take up to three days for the Internet to "find" you at your new, protected address - so in almost every case, it’s much better to **be prepared and get started now**.  The first step is to work with the company you bought your domain from, and change the “Time to Live” or TTL to 1 hour.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
+**Don't wait until you have been attacked!**  All of the services listed below will work quickly to help you recover during or after an attack, but you can get protected now, before any attack happens!  This can reduce costs by lowering your bandwidth usage, and keep you online during an attack.  Once you've been hit, it can take up to three days for the Internet to "find" you at your new, protected address - so in almost every case, it's much better to **be prepared and get started now**.  The first step is to work with the company you bought your domain from, and change the “Time to Live” or TTL to 1 hour.  This can help you redirect your site once it comes under attack much faster (the default is 72 hours, or three days).
 
 There are many services that can help you with denial of service attacks; and they fall (very broadly) into two categories - **hosted** and **proxied** services.
 
 ## Hosted Services
 
-Hosted services require you to move your website completely to their servers - you’re changing hosting providers.  Many of them can help you through this.  The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website. Hosted services may also use a mixture of the same technology as *proxied services* below.
+Hosted services require you to move your website completely to their servers - you're changing hosting providers.  Many of them can help you through this.  The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website. Hosted services may also use a mixture of the same technology as *proxied services* below.
 
 ### Pros:
 
@@ -69,7 +69,7 @@ Hosted services require you to move your website completely to their servers - y
 
 * You must host your website with the service
 * You must trust the service to manage your site and defend your rights
-* These services often are much more expensive (but you don’t have to pay other hosting / DNS services anymore!)
+* These services often are much more expensive (but you don't have to pay other hosting / DNS services anymore!)
 
 ## Proxied Services
 
@@ -79,7 +79,7 @@ Proxied services let you continue hosting your site wherever it is, and just cha
 
 * Lower cost (often with a free level)
 * Quick and easy to set up
-* You don’t have to change your existing website host
+* You don't have to change your existing website host
 * You can change or quit the service at any time
 
 ### Cons:
@@ -90,7 +90,7 @@ Proxied services let you continue hosting your site wherever it is, and just cha
 
 ## Custom Options
 
-It’s important to note that there are many ways to combine these approaches.  Many websites use what is called a Content Delivery Network (CDN), which takes some of the burden (serving images and other static content) off of a website and speeds it up greatly.  Dynamic sites (such as those powered by content management systems like Joomla, Wordpress and Drupal), can sometimes be "converted" into static sites that can be fully hosted (mirrored) using CDNs. 
+It's important to note that there are many ways to combine these approaches.  Many websites use what is called a Content Delivery Network (CDN), which takes some of the burden (serving images and other static content) off of a website and speeds it up greatly.  Dynamic sites (such as those powered by content management systems like Joomla, Wordpress and Drupal), can sometimes be "converted" into static sites that can be fully hosted (mirrored) using CDNs. 
 
 Content Delivery Networks can help reduce bandwidth costs and load during DDoS attacks, which, if your host is powerful enough for the rest, can get you through.  There are hundreds of CDN services, including Akamai and Amazon CloudFront.  MaxCDN has a free level of service, but generally, cost scales with bandwidth, meaning that these may become a financial drain during a DDoS attack. These often require a bit of technical expertise to get working, and you should work with your webmaster.
 
@@ -98,16 +98,18 @@ Another option to investigate is to "mirror" your content across multiple differ
 
 ## Before you choose
 
-Below are some questions for further consideration.
+Below are some questions for further consideration:
 
-* Does their business and cost model meet your needs?  Is it fee-for-service?  If there’s a free version, does it receive less support than a paid alternative?  Is it funded by governments?
-* Do they accept a form of payment you can use? Can you afford their service?
+* Does their business and cost model meet your needs?  Is it fee-for-service?  If there's a free version, does it receive less support than a paid alternative?  Is it funded by governments?
 * What type of ongoing support will you have access to?  Is there an additional cost for support, and/or will you receive sufficient support if you are using a "free" tier?
+* Do they accept a form of payment you can use? Can you afford their service?
 * How is the company/organization structured and sustained?  What types of reporting are the required to do, if any?
-* What logs are created, and for how long are they available?
+
 * Consider what country/countries they have a legal presence in and would be required to comply with law enforcement and other legal requests
 * Are there restrictions that impact you on what content the service will host/proxy?
 * Are there restrictions on the countries where they can provide service?
+
+* What logs are created, and for how long are they available?
 * Secure communications -- you should be able to log in securely and communicate with the service provider privately.
 * Is there an option for two-factor authentication, to improve the security of administrator access?  This or related secure access policies can help reduce the threat of other forms of attacks against your website.
 * Can you "test-drive" your website before you move over? Is there support in migrating your site to this service?
@@ -127,14 +129,14 @@ This by no means is an exhaustive list.  It focuses on services which can be ini
 * **Restrictions:** None, though the service is focused on content management systems which use PHP (Joomla, Drupal, Wordpress, and similar). See [https://www.qurium.org/values/](https://www.qurium.org/values/)
 * **About the organization and its business model:** VirtualRoad.org is part of Media Frontiers, a social purpose enterprise registered in Denmark as an ApS / limited liability company, established by the press freedom NGO, International Media Support (IMS).  IMS is funded largely by the governments of Denmark, Sweden, and Norway.  This organizational structure is meant to build long-term sustainable services for the community.
 * **Additional Services:** VirtualRoad.org offers full-range protection encompassing a wide variety of services, from transferring your site to their systems, domain registration, optimization, security audits, protection from hacking and phishing, security reports detailing attempted attacks, and even support in responding to legal requests.  See [https://virtualroad.org/get-protected/packages](https://virtualroad.org/get-protected/packages) for more details.
-* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
+* **Technical needs:** You will need to have full access to your website's backend or backups, as well as to edit your nameservers. If you need technical assistance with any of the onboarding or hosting, VirtualRoad.org will support you through the process.
 * **Get Started Now:** Visit [https://virtualroad.org/contact](https://virtualroad.org/contact) or email [info@virtualroad.org](mailto:info@virtualroad.org) 
 
 ### Greenhost
 * **Cost:** Pricing for small sites starts at €4.50/month up to € 133/month for premium hosting
 * **Restrictions:** Minimal, review Article 5 of the [https://greenhost.net/about-us/terms-and-conditions/](Terms and Conditions)
 * **About the organization and its business model:** Greenhost is a Dutch [social enterprise](http://social-enterprise.nl/social-enterprises/greenhost/) founded to provide sustainable, environmentally friendly website hosting services.  Greenhost is committed to an open and free internet, and the protection of its users.
-* **Technical needs:** You will need to have full access to your website’s backend or backups, as well as to edit your nameservers.
+* **Technical needs:** You will need to have full access to your website's backend or backups, as well as to edit your nameservers.
 * **Get Started Now:** [https://greenhost.nl/order/](https://greenhost.nl/order/)
 
 ### More Secure Hosting Organizations:
@@ -154,7 +156,7 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 * **Restrictions:** NGOs, human rights, independent media
 * **About the organization and its business model:** Deflect is an open source project of eQualit.ie, a not-for-profit technology collective based in Montreal, Canada with deep roots in the human rights technology community.  Deflect is funded by NGOs and governments, including the US government, to provide Deflect services to protect the freedom of speech.  Deflect does not disclose the websites they protect nor need approval to provide service.  Deflect maintains servers with like-minded hosting companies around the world.
 * **Additional Services:** The Deflect team will support you getting on to their services. Deflect also offers free hosting to qualifying organizations. Sites protected by Deflect can opt to add additional layers of security to their core site.
-* **Technical needs:** You will need the ability to [change your nameservers][nameserver change].
+* **Technical needs:** You will need the ability to [change your nameservers][Nameserver].
 * **Get Started Now:** [https://dashboard.deflect.ca/signup](https://dashboard.deflect.ca/signup).  See also [https://wiki.deflect.ca/wiki/Deflect/Walkthrough](https://wiki.deflect.ca/wiki/Deflect/Walkthrough)
 
 ### CloudFlare (Commercial)
@@ -162,7 +164,7 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 * **Cost:** Free for basic protection, up to $200/month and beyond for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
 * **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse). 
 * **About the organization and its business model:** Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
-It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
+It should be noted that part of CloudFlare's defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
 Cloudflare is required to comply with US legal requests and National Security Letters.
 * **Technical needs:** You will need the ability to change your nameservers.
 * **Get Started Now:**  Create an account here: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
@@ -173,16 +175,13 @@ Cloudflare is required to comply with US legal requests and National Security Le
 * **Restrictions:** [Project Galileo](https://www.cloudflare.com/galileo) is intended to be used through referrals of trusted NGOs for not-for-profit organizations and small commercial entities acting in the public interest, which are engaged in news gathering, civil society, or political/artistic speech, and the subject of online attacks based on this work.
 * **Get Started Now:**  Organizations can apply at [https://www.cloudflare.com/galileo](https://www.cloudflare.com/galileo), and find a list of public organizations who can refer customers (recommended)
 
-### Google’s Project Shield / PageSpeed
+### Google's Project Shield
 
-* **Cost:** PageSpeed is free during trial period; Project Shield is "currently offered free of charge to trusted testers." For both, there will be a 30-day notice before it changes to a fee-based model.
-* **Restrictions:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.  Project Shield is currently invite only, and is "accepting applications from websites serving news, human rights or elections-related content."
-* **About the organization and its business model:** Google is an international, public, for-profit company based in Mountain View, California, USA.
-As with most Google products, this ties the Google account you use to your website. This service falls under Google’s overall privacy policy and terms of service.  
-Google is required to comply with US legal requests and National Security Letters.
-* **Technical needs:** You will need the ability to fine-tune your DNS records.  PageSpeed rewrites and optimizes some parts of your website, which can alter functionality; you should be ready to test for this.
-* **Get Started Now with Pagespeed:** Begin the sign-up process here: [https://developers.google.com/speed/pagespeed/service](https://developers.google.com/speed/pagespeed/service)
-* **Get Started Now with Project Shield:** Request access here:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) . Note that Project Shield is currently invite only and providing access on a rolling basis.  After you sign up, you will "be notified via email if your site is selected to become a 'trusted tester'."
+* **Cost:** Project Shield is "currently offered free of charge to trusted testers."
+* **Restrictions:** You must be approved, generally a 2-hour process, but may be restricted for some organizations or countries.  Project Shield is limited to "organizations with sites serving media, elections and human rights related content".
+* **About the organization and its business model:** Google is an international, public, for-profit company based in Mountain View, California, USA. As with most Google products, this ties the Google account you use to your website. This service falls under Google's overall privacy policy and terms of service. Google is required to comply with US legal requests and National Security Letters.
+* **Technical needs:** A webmaster with admin privileges, web-server configuration access and the ability to modify DNS records
+* **Get Started Now with Project Shield:** Request access here:  [http://projectshield.withgoogle.com/about/](http://projectshield.withgoogle.com/about/) .
 
 ### More Proxy Services
 
@@ -196,19 +195,12 @@ DDoS attacks also impact many other services around your website - the service t
 * 1984.is [https://www.1984.is/](https://www.1984.is/)
 * Hover.com [https://www.hover.com/](https://www.hover.com/)
 
-# 
-
-[nameserver change]: You will need to use the site where you registered your domain name (e.g. Register.com, NetworkSolutions.com, etc.) and change your **nameservers* to different values.
-[DNS Record change]:
 # Glossary
 
-* **CDN / Content Delivery Network:** A worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
-* **DDoS / Distributed Denial of Service Attack:**  a "denial of service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it’s one “attacker” trying to do this to your site, which usually doesn’t cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
-* **DNS Record:** The DNS record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider's address or a proxy for your original website.
-* **Domain Name:** The human-readable name of your website - google.com, for example.
-* **Nameserver:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it's Internet address / IP Address (74.125.228.69) via it's DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
-* **SSL:** Also referred to as HTTPS, a secure way (from the browser to the website) to interact with a website. See also [Wikipedia](https://en.wikipedia.org/wiki/Secure_Sockets_Layer#Description)
-* **Website host:** The server where your website and its files/databases are stored.
-
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/dc4c191166ab89785c89e222c02e5572 "githalytics.com")](http://githalytics.com/OpenInternet/MyWebsiteIsDown)
+* **[CDN]:** A "Content Delivery Network" is a worldwide collection of computers you can program your website to use to serve content quickly.  Consider the case where your website is hosted in Iceland, but you have visitors from Thailand.  If you use a CDN, at least parts of your site can be delivered to the visitor from a computer that is much closer to them, than having to come all the way from Iceland.  This also has the effect of spreading the load out among other computers, which can reduce the severity of a DDoS Attack
+* **[DDoS]:**  a "Distributed Denial of Service" attack is where a malicious user (or many of them), try to view the website over and over again, quickly (using automated tools), and in doing so crowd out legitimate readers.  Sometimes it's one “attacker” trying to do this to your site, which usually doesn't cause much of a problem -- unless you pay for bandwidth.  More common is the “Distributed” denial of service (DDoS), where an attacker who controls thousands of machines targets a site with all of them.
+* **[DNS Record]:** The DNS (Domain Name System) record is like the master Contact List of Phone Book of the Internet.  All website servers are identified by a series of numbers and/or coded letters (the IP Address) - Google.com is 74.125.228.69, for example.  By changing this record, you can give out a different IP Address for a website - which could be a new hosting provider's address or a proxy for your original website.
+* **[Domain Name]:** The human-readable name of your website - google.com, for example.
+* **[Nameserver]:** When a browser wants to find a website, it will first contact a name server, which will tell connect the domain name (google.com) to it's Internet address / IP Address (74.125.228.69) via it's DNS Record (above).  By changing the DNS record at a name server, you can "point" the browser to a different server.
+* **[SSL]:** "Secure Sockets Layer" - more accurately now, TLS, or "Transport Layer Security" -- The technology behind HTTPS, a secure way (from the browser to the website) to interact with a website. See also [Wikipedia](https://en.wikipedia.org/wiki/Secure_Sockets_Layer#Description)
+* **[Website host]:** The server where your website and its files/databases are stored.
