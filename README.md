@@ -1,6 +1,8 @@
-MyWebsiteIsDown
+This is now updated, translated, and maintained at [https://digitalfirstaid.org/en/topics/website-not-working/] 
+
+
+MyWebsiteIsDown (OLD)
 ===============
-[https://github.com/OpenInternet/MyWebsiteIsDown/blob/master/MyWebsiteIsDown.md](https://github.com/OpenInternet/MyWebsiteIsDown/blob/master/MyWebsiteIsDown.md) is the most up to date version of the guide.  The PDFs and Docs are periodically re-generated.
 
 Documentation and guides for withstanding DDoS Attacks.
 
