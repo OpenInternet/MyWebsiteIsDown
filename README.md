@@ -1,4 +1,4 @@
-This is now updated, translated, and maintained at [https://digitalfirstaid.org/en/topics/website-not-working/] 
+This is now updated, translated, and maintained at [Digital First Aid](https://digitalfirstaid.org/topics/website-not-working/#)
 
 
 MyWebsiteIsDown (OLD)
