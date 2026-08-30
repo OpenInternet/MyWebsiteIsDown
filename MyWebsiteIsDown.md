@@ -180,7 +180,7 @@ Again, this is by no means an exhaustive list; there are thousands of commercial
 * **Cost:** Free for basic protection, $20/month to include SSL support, and up to $200/month for more advanced needs.  Paid customers receive preferential support and uptime guarantees.
 * **Restrictions:** Subject to US export controls, see also [https://blog.cloudflare.com/thoughts-on-abuse](https://blog.cloudflare.com/thoughts-on-abuse)
 * **About the organization and its business model:** Cloudflare is a privately-held Delware-incorporated US for-profit company based in San Francisco.  They maintain servers around the world ([https://www.cloudflare.com/network-map](https://www.cloudflare.com/network-map)) and comply with legal requests.
-It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network.  This happens if someone is using Tor to abuse a service, and is **not** a policy decision to block Tor.  See also [this blog post](http://blog.cloudflare.com/cloudflare-and-free-speech) for further policies from CloudFlare regarding free speech.
+It should be noted that part of CloudFlare’s defenses against DDoS attacks occasionally degrade access from the Tor network. You should follow [CloudFlare's guide](https://support.cloudflare.com/hc/en-us/articles/203306930-Does-CloudFlare-block-Tor-) to whitelist Tor access to your website. 
 Cloudflare is required to comply with US legal requests and National Security Letters.
 * **Technical needs:** You will need the ability to change your nameservers.
 * **Get Started Now:**  Create an account here: [https://www.cloudflare.com/sign-up](https://www.cloudflare.com/sign-up)
